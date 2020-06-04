@@ -22,11 +22,24 @@ const Content = styled.div`
 
 const GatsbyLink = styled.a`
   margin-left: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+`
+
+const FooterContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 `
 
 const Footer = styled.footer`
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.6);
 `
 
 const Layout = ({ children }) => (
@@ -45,13 +58,15 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
-            <p>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
-          </Footer>
+          <FooterContainer>
+            <Footer>
+              <p>
+              © {new Date().getFullYear()} codeAmeba, Built with
+              {` `}
+              </p>
+              <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
+            </Footer>
+          </FooterContainer>
         </Content>
       </>
     )}
