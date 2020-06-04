@@ -28,16 +28,18 @@ const GatsbyLink = styled.a`
 `
 
 const FooterContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 `
 
 const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
   position: absolute;
   bottom: 0;
+  display: flex;
+  justify-content: center;
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.6);
 `
