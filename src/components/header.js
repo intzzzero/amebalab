@@ -22,9 +22,10 @@ const NavLink = styled(Link)`
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    padding-top: 10px;
+    bottom: -2px;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 252, 195, 0.8);
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -48,9 +49,10 @@ const GitHubLink = styled.a`
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    padding-top: 10px;
+    bottom: -2px;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 252, 195, 0.8);
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
