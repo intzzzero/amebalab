@@ -16,7 +16,7 @@ const OuterContainer = styled.div`
 `
 
 const ProfileImg = styled.img`
-  max-width: 320px;
+  max-width: 300px;
   border-radius: 50%;
 `
 
