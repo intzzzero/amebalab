@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: "Nunito", "Avenir", "Helvetica", "sans-serif";
+  font-family: "Helvetica", "Nunito", "Avenir", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -192,6 +192,7 @@ html {
 }
 * {
   box-sizing: inherit;
+  color: rgba(0, 0, 0, 0.7);
 }
 *:before {
   box-sizing: inherit;
@@ -372,7 +373,8 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
 figure {
   margin-left: 0;

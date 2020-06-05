@@ -23,12 +23,14 @@ const Content = styled.div`
 const GatsbyLink = styled.a`
   margin-left: 5px;
   font-size: 1em;
+  line-height: 2rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 `
 
 const FooterContainer = styled.div`
   position: relative;
+  padding-top: 120px;
   width: 100%;
   height: 20px;
   display: flex;

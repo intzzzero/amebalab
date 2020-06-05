@@ -16,18 +16,18 @@ const OuterContainer = styled.div`
 `
 
 const ProfileImg = styled.img`
-  max-width: 300px;
+  max-width: 280px;
   border-radius: 50%;
 `
 
 const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
 `
 
 const NameHeader = styled.h1`
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 0;
 `
 
