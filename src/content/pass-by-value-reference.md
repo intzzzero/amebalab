@@ -2,7 +2,7 @@
 title: "값의 전달과 참조의 전달"
 date: "2020-06-04"
 draft: false
-path: "/blog/pass-by-value-pass-by-reference"
+path: "/blog/pass-by-value-and-reference"
 ---
 
 ## 값의 전달
