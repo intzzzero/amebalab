@@ -628,6 +628,9 @@ a::selection {
   padding-left: 2.8em;
   overflow: initial;
 }
+.token.parameter {
+  color: #c5c8c6;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
