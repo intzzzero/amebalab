@@ -635,7 +635,8 @@ a::selection {
   overflow: initial;
 }
 .token.parameter {
-  color: #c5c8c6;
+  color: rgba(255, 255, 0, 0.8);
+  ;
 }
 code[class*="language-"],
 pre[class*="language-"] {
