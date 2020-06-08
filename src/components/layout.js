@@ -23,7 +23,7 @@ const Content = styled.div`
 const GatsbyLink = styled.a`
   margin-left: 5px;
   font-size: 1em;
-  line-height: 2rem;
+  line-height: 1.7rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 `
