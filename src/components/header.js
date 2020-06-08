@@ -15,6 +15,8 @@ const NavLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  font-size: 1.1rem;
+
 
   ::after {
     content: "";
@@ -42,6 +44,8 @@ const GitHubLink = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  font-size: 1.1rem;
+
 
   ::after {
     content: "";
@@ -65,6 +69,7 @@ const GitHubLink = styled.a`
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
+  font-size: 1.1rem;
 `
 
 const SiteHeader = styled.header`
