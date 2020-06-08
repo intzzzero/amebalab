@@ -23,7 +23,7 @@ const NavLink = styled(Link)`
     transform: scaleX(0);
     height: 2px;
     padding-top: 10px;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
     background-color: rgba(255, 255, 0, 0.8);
     transform-origin: bottom right;
@@ -50,7 +50,7 @@ const GitHubLink = styled.a`
     transform: scaleX(0);
     height: 2px;
     padding-top: 10px;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
     background-color: rgba(255, 255, 0, 0.8);
     transform-origin: bottom right;
