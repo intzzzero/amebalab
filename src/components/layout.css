@@ -637,6 +637,10 @@ a::selection {
 .token.parameter {
   color: #c5c8c6;
 }
+code[class*="language-"],
+pre[class*="language-"] {
+  color: rgba(255, 255, 0, 1);
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
