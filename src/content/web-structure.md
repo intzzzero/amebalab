@@ -27,8 +27,7 @@ path: "/blog/web-structure"
 
 - **CSS** : Cascading Style Sheets를 뜻하며, HTML에 종속(Cascade)되어 웹 문서를 꾸며주는 역할을 한다. CSS아래와 같은 형태를 지닌다. HTML의 `<head></head>`가 끝나기 전에 `<style></style>`로 삽입하거나 `<link rel="stylesheet" href="style.css">`처럼 CSS파일을 별도로 만들어 링크를 하기도 한다. 효율성 측면에서 후자를 많이 쓴다.
 
-```html
-<style>
+```css
 h1 {
     color: deeppink;
     font-size: 1.5rem;
@@ -38,15 +37,12 @@ p {
     color: darkslategray;
     font-style: italic;
 }
-</style>
 ```
 
 - **JavaScript** : HTML과 CSS로만 이루어진 웹 페이지를 ‘정적 페이지’라고 부르며, 여기에 JavaScript가 더해져 ‘동적 페이지’가 된다. 참고로, JAVA와는 아무 관련이 없다. 아래와 같은 형태를 취하며, `<head></head>` 혹은 `<body></body>`에 위치할 수 있지만, 위에서 아래로 한 줄씩 실행되기 때문에 보통 `<body></body>`의 가장 아래에 위치한다. CSS와 마찬가지로 별도의 파일을 만들어 링크할 수 있다.
 
-```html
-<script>
-    alert("Hello World!"); //Hello World! 알림창
-</script>
+```js
+console.log("Hello World!"); //Hello World! 알림창
 ```
 
 ## 웹 표준(Web Standard)
