@@ -29,7 +29,7 @@ const Copyright = styled.p`
 const GatsbyLink = styled.a`
   margin-left: 5px;
   font-size: 0.9em;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.4);
 `
