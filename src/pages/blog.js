@@ -18,7 +18,8 @@ const ArticleDate = styled.h5`
 `
 
 const MarkerHeader = styled.h3`
-  display: inline;
+  margin-top: 1.5rem;
+  display: inline-block;
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
     -100deg,

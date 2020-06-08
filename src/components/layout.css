@@ -7,6 +7,7 @@ body {
   font-family: "Helvetica", "Nunito", "Avenir", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 article,
 aside,
@@ -191,14 +192,14 @@ html {
   overflow-y: scroll;
 }
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
   color: rgba(0, 0, 0, 0.7);
 }
 *:before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
@@ -225,11 +226,11 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 2.2rem;
+  margin-bottom: 0;
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -260,7 +261,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.5rem;
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -374,7 +375,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   line-height: 1.7rem;
 }
 figure {

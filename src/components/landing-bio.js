@@ -24,6 +24,7 @@ const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
 `
 
 const NameHeader = styled.h1`
