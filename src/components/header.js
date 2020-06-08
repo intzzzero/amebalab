@@ -25,7 +25,7 @@ const NavLink = styled(Link)`
     padding-top: 10px;
     bottom: -2px;
     left: 0;
-    background-color: rgba(255, 252, 195, 0.8);
+    background-color: rgba(255, 255, 0, 0.8);
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -52,7 +52,7 @@ const GitHubLink = styled.a`
     padding-top: 10px;
     bottom: -2px;
     left: 0;
-    background-color: rgba(255, 252, 195, 0.8);
+    background-color: rgba(255, 255, 0, 0.8);
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
