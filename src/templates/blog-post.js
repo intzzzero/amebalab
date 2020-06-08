@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Utterances from "../components/utterances"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -60,7 +61,9 @@ export default ({ data }) => {
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Utterances />
       </Content>
+
     </Layout>
   )
 }
