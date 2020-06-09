@@ -67,7 +67,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background-color: #ff0;
+  background-color: rgba(255, 255, 0, 0.8);
   color: #000;
 }
 small {
@@ -618,7 +618,7 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection {
-  background: #fffa96cc;
+  background: rgba(255, 255, 0, 0.7);
 }
 
 .gatsby-highlight {
@@ -635,12 +635,14 @@ a::selection {
   overflow: initial;
 }
 .token.parameter {
-  color: #fff;
-  ;
+  color: rgb(225, 123, 86);
 }
-code[class*="language-"],
-pre[class*="language-"] {
-  color: rgba(255, 255, 0, 1);
+.token.interpolation {
+  color: rgb(68, 174, 223);
+}
+:not(pre) > code[class*="language-"] {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 0, 0.7);
 }
 @media only screen and (max-width: 480px) {
   html {
