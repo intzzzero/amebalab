@@ -1,13 +1,13 @@
-import { Link } from "gatsby"
-import styled from "@emotion/styled"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby';
+import styled from '@emotion/styled';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Content = styled.div`
-  max-width: 860px;
-  padding: 1rem 1.0875rem;
-  font-size: 1.2rem;
-`
+	max-width: 860px;
+	padding: 1rem 1.0875rem;
+	font-size: 1.2rem;
+`;
 
 const NavLink = styled(Link)`
   color: rgba(0, 0, 0, 0.7);
@@ -27,7 +27,7 @@ const NavLink = styled(Link)`
     padding-top: 10px;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 0, 0.8);
+    background-color: rgba(220, 255, 0, 0.8);
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -36,69 +36,68 @@ const NavLink = styled(Link)`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-`
+`;
 
 const GitHubLink = styled.a`
-  color: rgba(0, 0, 0, 0.7);
-  margin-left: 55px;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  font-size: 1.2rem;
+	color: rgba(0, 0, 0, 0.7);
+	margin-left: 55px;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	font-size: 1.2rem;
 
+	::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 2px;
+		padding-top: 10px;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(220, 255, 0, 0.8);
+		transform-origin: bottom right;
+		transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+	}
 
-  ::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    padding-top: 10px;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255, 255, 0, 0.8);
-    transform-origin: bottom right;
-    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-  }
-
-  :hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-`
+	:hover::after {
+		transform: scaleX(1);
+		transform-origin: bottom left;
+	}
+`;
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
   font-size: 1.2rem;
-`
+`;
 
 const SiteHeader = styled.header`
-  background: transparent;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-`
+	background: transparent;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+`;
 
 const Header = ({ siteTitle }) => (
-  <SiteHeader>
-    <Content>
-      <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink target="_blank" href="https://github.com/codeAmeba">
-          GitHub
-        </GitHubLink>
-      </p>
-    </Content>
-  </SiteHeader>
-)
+	<SiteHeader>
+		<Content>
+			<p>
+				<HomeLink to="/">{siteTitle}</HomeLink>
+				<NavLink to="/blog">Blog</NavLink>
+				<GitHubLink target="_blank" href="https://github.com/codeAmeba">
+					GitHub
+				</GitHubLink>
+			</p>
+		</Content>
+	</SiteHeader>
+);
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+	siteTitle: PropTypes.string
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+	siteTitle: ``
+};
 
-export default Header
+export default Header;

@@ -44,7 +44,6 @@ path: "/blog/chrome-extensions"
 ## 웹 개발자에게 유용한 확장 프로그램
 ### Wappalyzer
 ![wappalyzer](https://lh3.googleusercontent.com/QVwNvDyEfFZIJdRsmSQA6NPLAWxkmyrUPR-SH5tQ7D4KiIYR-jzN9NTis-XTZXergz7AHuoSIQ=w640-h400-e365)
-![wappalyzer](../images/wappalyzer.png)
 
 Wappalyzer는 '이 웹사이트는 어떤 프레임워크를 썼을까?', '서버로는 무엇을 쓰고 있을까?' 싶을 때 유용한 확장 프로그램이다. 간단하게 특정 웹사이트를 구성하는 여러 서비스들을 알 수 있다.
 평소 눈여겨 보던 사이트는 무엇으로 만들어졌나 확인해보자.
