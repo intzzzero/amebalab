@@ -120,9 +120,8 @@ console.log(beerBox); // (2) ["fitz", "asahi"]
 위와 같이 `pop`과 `shift`는 임의로 지정하는 요소와 별개로 동작한다. `pop`은 맨뒤의 요소부터 차례대로 제거하고, `shift`는 맨앞의 요소부터 차례대로 제거한다.
 
 결론적으로 이들, `push` - `pop`, `unshift` - `shift`는 `stack`과 `queue`의 특성으로 이해하면 된다.
-  > ![stack](../images/stack.jpg)
+  > ![stack & queue](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-EFEEDn3-3iE%2FWNht0FyF1eI%2FAAAAAAAAIL0%2F9JUoE9jXYd411x91GZFvWY4QRhvzRj-RACEw%2Fs1600%2FDifferenceBetween_C_Stack_Queue.jpg&f=1&nofb=1)
   > 스택(stack)은 **LIFO(후입선출, Last In First Out)**의 특성이 있다. 즉, 마지막에 입력된 자료부터 출력된다는 말이다.
-  > ![queue](../images/queue.jpg)
   > 반대로 큐(queue)는 **FIFO(선입선출, First In First Out)**라는 특성이 있다. 즉, 먼저 입력된 자료부터 출력된다.
 
 ## 3. 그 밖의 배열을 조작하는 방법들
