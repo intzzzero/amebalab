@@ -12,7 +12,6 @@ JavaScript 에서 Function에 Property를 줄 수 있는 것이 대표적인 예
 
 위의 내용이 위키백과에서 말하는 1급 객체의 설명이다.
 
-
 ## 내가 이해한 1급 객체
 우선 자바스크립트에서 대표적인 1급 객체로 취급 받는 함수(Function)는 다음과 같은 특성을 지니고 있기에 1급 객체라고 한다.
 
@@ -62,6 +61,6 @@ console.log(loseBeerCounter()); // -2
 
 이처럼 자바스크립트의 함수는 마치 1급 시민권을 소유한 시민이 자유와 특권을 갖고 있듯 여타 객체들에 비해 관여할 수 있는 범위가 넓다. 활용하기에 따라 무궁무진한 결과를 만들어낼 수 있는 강력한 기능인 함수이기 때문에 최근 **함수형 프로그래밍** 이 각광 받는 게 아닐까 싶다. 배워야 할 것들이 너무나 많아서 행복하다(?).
 
-#### 참고자료
-- [Javascript에서 왜 함수가 1급 객체일까요? – Sona Lee – Medium](https://medium.com/@soeunlee/javascript%EC%97%90%EC%84%9C-%EC%99%9C-%ED%95%A8%EC%88%98%EA%B0%80-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EC%9D%BC%EA%B9%8C%EC%9A%94-cc6bd2a9ecac)
-- [위키피디아 | 일급 객체](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B8%89_%EA%B0%9D%EC%B2%B4)
+**참고:**
+  - [Javascript에서 왜 함수가 1급 객체일까요? – Sona Lee – Medium](https://medium.com/@soeunlee/javascript%EC%97%90%EC%84%9C-%EC%99%9C-%ED%95%A8%EC%88%98%EA%B0%80-1%EA%B8%89-%EA%B0%9D%EC%B2%B4%EC%9D%BC%EA%B9%8C%EC%9A%94-cc6bd2a9ecac)
+  - [위키피디아 | 일급 객체](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B8%89_%EA%B0%9D%EC%B2%B4)
