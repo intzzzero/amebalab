@@ -6,7 +6,7 @@ path: "/blog/vscode-extensions"
 ---
 
 ## [번역] 쾌적한 자바스크립트 코딩을 위한 VSCode 확장 프로그램 추천
-[원문 링크](https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5)**Top JavaScript VSCode Extensions for Faster Development**
+[원문 | Top JavaScript VSCode Extensions for Faster Development](https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5)
 
 VSCode는 현재 가장 많은 프로그래머들이 사랑하는 IDE입니다. 매우 빠르고, 확장 프로그램이 풍부하며, 자유로운 커스터마이징이 가능하죠. 그 외에도 뛰어난 기능들을 다수 지니고 있습니다. 만약 아직도 사용해보지 않았다면, 꼭 한 번 써보시길 바랍니다.
 
@@ -74,4 +74,4 @@ GPM(Git Project Manager)을 사용하면 VSCode에서 직접 Git 저장소 새�
 ## Dracula (Theme)
 그냥 개인적으로 가장 좋아하는 테마입니다.
 ※역자 주: 저는 material theme을 좋아합니다 :)
-![Dracula (Theme)](https://cdn-images-1.medium.com/max/1600/1*VXgT4EFpAKtPfXTgi00BqA.png)
+![Dracula Theme](https://cdn-images-1.medium.com/max/1600/1*VXgT4EFpAKtPfXTgi00BqA.png)
