@@ -19,7 +19,7 @@ path: "/blog/chrome-extensions"
 [Momentum - Chrome 웹 스토어](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko)
 
 ### Todoist
-![todoist](https://lh3.googleusercontent.com/w4_YW9Z7tJ5JPM1vA1mWISQRh9raUAWINHBQ6zArtrBgzVzOggi0LpnYePybHL0X-WfyvcnccA=w640-h400-e365)
+![todoist](https://lh3.googleusercontent.com/1S6w9WZ9jkfIs0ZAKdKOD7Umcm8iP7rBxWXdFEUtbQo3tl70DDhIf9hmn8BLtE6BHVB8R8SmJg=w640-h400-e365)
 
 기본에 충실한 투두리스트 애플리케이션이다. 미니멀한 디자인에 스마트폰(애플리케이션  별도 설치 시)과 연동이 가능하다는 점이 유용하다.
 
