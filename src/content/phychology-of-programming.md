@@ -10,7 +10,7 @@ path: "/blog/phychology-of-programming"
 ## 프로그래밍 심리학(The psychology of computer programming)
 
 <div style="clear:left;text-align:left;"><div style="float:left;margin:0 15px 5px 0;"><a href="http://www.yes24.com/Product/Goods/11686161" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="http://image.yes24.com/goods/11686161/M" border="0" alt="프로그래밍 심리학 "></a></div><div><p style="line-height:1.2em;color:#333;font-size:14px;font-weight:bold;">프로그래밍 심리학 </p><p style="margin-top:5px;line-height:1.2em;color:#666;"><a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=115389" target="_blank">제럴드 M. 와인버그</a> 저</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;color:#999;">약 40년 전 제랄드 와인버그는 ‘프로그래밍도 사람이 하는 것’이라는, 당연하지만 현실에선 제대로 인정받지 못하는 문제 인식을 바탕으로 『프로그래밍 심리학』을 탄생시켰다. 프로그래밍을 둘러싼 여러 부류의 사람들이 가지는 마음의 이치를 다룬 역사적인 책이다. 프로젝트를 이끌어나가는 사람 사이의 관계뿐 아니...</p></div></div>
-<br />
+<br /><br /><br />
 
 
 ## 프로그래밍 + 심리학
