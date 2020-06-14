@@ -1,5 +1,5 @@
 ---
-title: "모든 요소에 특정 작업을 수행하는 반복 메서드"
+title: "모든 요소에 특정 작업을 수행하는 반복 배열 메서드"
 date: "2020-06-13"
 draft: false
 path: "/blog/array-method-iteration"
