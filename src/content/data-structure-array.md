@@ -1,5 +1,5 @@
 ---
-title: "자료구조 기초 - Array"
+title: "Data Structure - Array"
 date: "2020-06-08"
 draft: false
 path: "/blog/data-structure-array"
