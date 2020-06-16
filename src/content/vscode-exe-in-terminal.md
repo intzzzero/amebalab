@@ -13,8 +13,8 @@ path: "/blog/vscode-exe-in-terminal"
 ## 만약 안 된다면?
 예전의 나처럼 명령어 설정이 되어있지 않다면 위의 cli가 먹히지 않을 것이다. 그렇다면 우선 보통의 방법으로 VSCode를 실행한다. 그리고 아래의 순서대로 설정을 해보라.
 
-1. Commend Palette를 연다. [단축키 macOS: ⇧⌘P / windowOS: ctrl+shift+p]
-2. **shell commend** 를 입력한다.
+1. Command Palette를 연다. [단축키 macOS: ⇧⌘P / windowOS: ctrl+shift+p]
+2. **shell command** 를 입력한다.
 3. 관련 리스트가 펼쳐질 텐데, 그 중에서 **쉘 명령: PATH에 'code' 명령 설치** 항목을 선택한다.
 
 이것으로 `code .`으로 터미널에서 VSCode를 즉시 실행할 수 있게 설정이 완료되었다. 허탈했다던 내 기분이 이해되었으리라 생각된다.
