@@ -1,6 +1,6 @@
 ---
 title: "[React] CRA를 통한 프로젝트 초기 환경 설정"
-date: "2020-06-17"
+date: "2020-06-13"
 draft: false
 path: "/blog/react-init-setting"
 ---

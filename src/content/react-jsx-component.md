@@ -1,6 +1,6 @@
 ---
 title: "[React] JSX와 Component"
-date: "2020-06-17"
+date: "2020-06-14"
 draft: false
 path: "/blog/react-jsx-and-component"
 ---
@@ -39,6 +39,7 @@ JSX에서 모든 태그는 `/`를 사용하여 꼭 닫아야만 한다. 이 규�
 render() {
   return (
     <h1>hello</h1>
+    <h2>my name is {name}</h2>
   );
 }
 ```
