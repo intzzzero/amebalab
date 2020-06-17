@@ -19,21 +19,21 @@ const greeting = <h1>Hello</h1>;
 물론 JSX는 브라우저에 직접적으로 적용될 수 없다. 오직 리액트 프로젝트 내부에서만 존재할 수 있는 문법이며, 배포 전 번들링 과정에서 babel을 통해 JavaScript로 컴파일 되는 과정을 거친다. 처음에는 꽤 낯선 형태의 문법이지만 몇 가지 규칙을 숙지하고 몇 차례 작성하다 보면 금방 친숙해지는 것이 JSX이기도 하다.
 다음은 JSX에서 **반드시 지켜야 하는 규칙** 들이다.
 
-### HTML, CSS 속성은 camelCase로 작성하라
+### 1. HTML, CSS 속성은 camelCase로 작성하라
 JSX에서는 HTML과 CSS의 속성도 지정할 수 있는데, 한 가지 다른 점이라면 `camelCase`로 변경해야 한다는 것이다. 이는 권장 사항이 아니라 강제 사항이라 어길 경우 해당 속성에 값이 적용되지 않는다.
 
 ```jsx
 const nameBox = <div style={ backgroundColor: 'black' }>{name}</div>
 ```
 
-### 태그는 꼭 닫아라
+### 2. 태그는 꼭 닫아라
 JSX에서 모든 태그는 `/`를 사용하여 꼭 닫아야만 한다. 이 규칙은 태그가 쌍을 이루지 않는 **셀프 클로징 태그** 에도 동일하게 적용된다.
 
 ```jsx
 <img src={this.props.src} alt={this.props.name} />
 ```
 
-### 모든 요소를 감싸는 최상단의 태그
+### 3. 모든 요소를 감싸는 최상단의 태그
 
 ```jsx
 render() {
