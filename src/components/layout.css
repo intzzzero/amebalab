@@ -193,7 +193,7 @@ html {
 }
 * {
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.7);
+  /* color: rgba(0, 0, 0, 0.7); */
 }
 *:before {
   box-sizing: border-box;
