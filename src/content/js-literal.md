@@ -1,5 +1,5 @@
 ---
-title: "[JavaScript Preview] 리터럴(Literal)의 이해"
+title: "리터럴(Literal)의 이해"
 date: "2020-06-17"
 draft: false
 path: "/blog/what-is-literal"
