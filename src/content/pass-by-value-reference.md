@@ -5,6 +5,8 @@ draft: false
 path: "/blog/pass-by-value-and-reference"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 값의 전달
 
 ```js

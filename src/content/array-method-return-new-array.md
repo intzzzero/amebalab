@@ -5,8 +5,9 @@ draft: false
 path: "/blog/array-method-return-newarray"
 ---
 
-## 접근자 메서드
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
+## 접근자 메서드
 배열 메서드는 크게 세 종류로 나눈다.
 
 - **수정 메서드** : 원본 배열을 수정함
@@ -16,7 +17,6 @@ path: "/blog/array-method-return-newarray"
 이번 시간에는 주요 **접근자 메서드** 들을 살펴본다.
 
 ## join
-
 `join()`은 모든 요소를 문자열로 변환 후 인수로 받은 문자와 연결하여 반환한다.
 
 ```js
@@ -27,7 +27,6 @@ console.log(fruits.join(‘-‘));
 ```
 
 ## concat
-
 `concat()`은 인수로 받은 값을 배열에 추가하여 새로운 배열을 생성한다.
 
 ```js
@@ -52,7 +51,6 @@ console.log(fruits.concat([‘lemon’, [‘strawberry’, ‘watermelon’]]));
 ```
 
 ## slice
-
 `slice()`는 선택된 만큼의 요소를 새로운 배열로 반환한다. 두 개의 인수를 받으며, 첫 번째 인수는 **시작 인덱스** , 두 번째 인수는 **끝 인덱스** 다.
 
 `slice(시작, 끝)` : 시작 인덱스의 요소부터 끝 인덱스 바로 앞까지 새로운 배열로 반환한다. 두 번째 인수를 생략 가능하며 그럴 경우 시작 인덱스부터 모든 요소를 배열로 반환한다.
@@ -68,7 +66,6 @@ console.log(fruits.slice(3));
 ```
 
 ## indexOf, lastIndexOf
-
 `indexOf()`와 `lastIndexOf()`는 인수로 전달한 요소의 인덱스를 반환한다.
 `indexOf()`는 배열 왼쪽부터 검색하고, `lastIndexOf()`는 배열 오른쪽부터 검색하여 반환한다. 만약, 찾는 요소가 배열에 없을 때에는 `-1`을 반환한다.
 두 번째 인수는 검색을 시작할 인덱스이며 생략 가능하다.
@@ -81,7 +78,6 @@ console.log(numbers.lastIndexOf(5)); // 6
 ```
 
 ## toString, toLocaleString
-
 `toString()`과 `toLocaleString()`은 배열의 요소를 문자열로 반환 후 쉼표로 연결하여 반환한다. 둘의 차이는 `toLocaleString()`의 경우 해당 지역에 맞는 문자열로 번역하여 반환한다는 점이다.
 
 ```js

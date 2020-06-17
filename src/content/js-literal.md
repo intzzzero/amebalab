@@ -5,6 +5,8 @@ draft: false
 path: "/blog/what-is-literal"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 리터럴(Literal)
 리터털(Literal)은 소스 코드 내에 직접 타이핑하여 만들어낸 값 자체를 의미한다. 자칫 값(value)와 혼동하기 쉬운데, **리터럴은 값이 될 수 있지만, 값은 리터럴이 될 수 없다.** 즉, 리터럴은 평가(Evaluation)되기 이전의 표현식을 구성하는 것이라고 할 수 있다.  
 

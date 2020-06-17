@@ -5,6 +5,8 @@ draft: false
 path: "/blog/closure-is-very-important"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 렉시컬 스코핑(Lexical Scoping)
 클로저의 개념을 이해하기 위해서는 우선 렉시컬 스코핑을 이해해야 하며, 렉시컬 스코핑을 이해하기 위해서는 실행 컨텍스트(Execution Context)를 이해할 필요가 있다.
 

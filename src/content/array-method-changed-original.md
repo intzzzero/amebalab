@@ -5,6 +5,8 @@ draft: false
 path: "/blog/array-method-modify-original"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 수정 메서드
 
 배열 메서드는 크게 세 종류로 나눈다.

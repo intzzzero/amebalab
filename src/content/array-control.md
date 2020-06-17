@@ -5,7 +5,7 @@ draft: false
 path: "/blog/array-control"
 ---
 
-![array](https://images.unsplash.com/photo-1514880448122-7e417213b996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80)
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
 ## 1. 배열 요소의 추가
 ### 1 - 1. 인덱스를 지정하여 요소 추가

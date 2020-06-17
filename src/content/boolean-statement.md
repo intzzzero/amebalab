@@ -5,6 +5,8 @@ draft: false
 path: "/blog/boolean-statement"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 제어문(Control flow statement)
 코드는 일반적으로 순차적으로 실행되지만,  제어문을 활용하면 인위적으로 순서를 제어할 수 있다. 사용하기에 따라 무척 편리한 기능이지만, 무분별한 남용은 코드의 가독성을 저하시키고 오류 발생의 원인이 되기도 한다.
 

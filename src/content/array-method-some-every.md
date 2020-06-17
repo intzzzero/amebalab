@@ -5,6 +5,8 @@ draft: false
 path: "/blog/array-method-some-every"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## .every()
   - `every()` 메서드는 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트합니다. (MDN)
   - 간단히 말하자면, 요소 하나라도 조건식을 통과하지 못하면  `false`를 반환하고, 모든 요소가 조건식을 만족하면 `true`를 반환한다.

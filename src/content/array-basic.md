@@ -5,7 +5,9 @@ draft: false
 path: "/blog/array-basic"
 ---
 
-자바스크립트에서 배열은 무척 중요한 **객체(object)**이며, 이를 통해 다양한 작업들을 수행할 수 있다. 기본적인 사항들은 다음과 같다.
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
+자바스크립트에서 배열은 무척 중요한 **객체(object)** 이며, 이를 통해 다양한 작업들을 수행할 수 있다. 기본적인 사항들은 다음과 같다.
 
 ### 첫째
 객체는 순서가 없지만, 배열은 순서가 있는 데이터의 집합이며 0부터 시작하는 숫자형 인덱스를 사용한다.

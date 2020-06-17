@@ -5,6 +5,8 @@ draft: false
 path: "/blog/expression-and-statment"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 표현식(Expression)
 자바스크립트에서의 값(value)은 리터럴 표기법으로도 생성이 가능하지만, 대개의 경우 표현식(Expression)으로 생성한다. 엄밀히 따지면, 리터럴은 표현식의 일부라고 할 수 있으며, 표현식은 리터럴 외에도 식별자, 연산자, 함수 호출 등으로도 구성할 수 있다.
 

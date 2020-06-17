@@ -5,7 +5,7 @@ draft: false
 path: "/blog/no-more-global-variables"
 ---
 
-![caution](https://images.unsplash.com/photo-1512621387945-efb0d554f388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60)
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
 ## 변수의 생명 주기(Life cycle)
 변수 선언에 의해 생성된 변수는 영원불멸이 아니다. 언젠가는 소멸하게 되어 있는데, 이를 생명 주기라고 한다. 

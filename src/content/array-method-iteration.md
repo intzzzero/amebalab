@@ -5,8 +5,9 @@ draft: false
 path: "/blog/array-method-iteration"
 ---
 
-## 반복 메서드
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
+## 반복 메서드
 배열 메서드는 크게 세 종류로 나눈다.
 
 - **수정 메서드** : 원본 배열을 수정함
@@ -16,7 +17,6 @@ path: "/blog/array-method-iteration"
 이번 시간에는 주요 **반복 메서드** 들을 살펴본다.
 
 ## 반복 메서드의 공통 성질
-
 1. 반복 메서드의 인수로 전달한 함수는 배열의 모든 요소들에 호출되어 적용되며, 희소 배열의 경우 비어있는 요소는 건너뜀
 2. 반복 메서드 대부분은 첫 번째 인수로 함수를 받으며, 이 함수에는 **최대 세 개의 인수** 를 전달할 수 있다. 첫 번째 인수만 전달하는 경우가 많으며, 각각의 인수는 다음과 같다.
   - 첫 번째 인수(value): 현재 처리하는 요소의 값
@@ -25,7 +25,6 @@ path: "/blog/array-method-iteration"
 3. `reduce`와 `reduceRight`를 제외한 반복 메서드에는 두 번째 인수를 지정할 수 있다. 두 번째 인수는 첫 번째 인수로 받은 함수 안의 `this`값이며 생략 가능하다.
 
 ## forEach
-
 `forEach()`는 인수로 받은 함수를 요소 하나 하나마다 실행한다.
 
 ```js
@@ -49,7 +48,6 @@ fruits.forEach((fruit, index) => {
 ```
 
 ## map
-
 `map()`은 인수로 받은 함수를 요소별로 한 번씩 실행하며, 함수가 반환한 값으로 새로운 배열을 생성한다. `map()`의 인수로 넘기는 함수는 반드시 값을 반환해야 한다.
 
 ```js
@@ -77,7 +75,6 @@ console.log(persons.map(person => person.name).map(name => name.length));
 ```
 
 ## filter
-
 `filter()`는 조건에 충족하는 요소만 걸러 새로운 배열로 반환한다.
 
 ```js
@@ -91,7 +88,6 @@ console.log(longerThan5Length); // [“banana”, “blueberry”]
 ```
 
 ## reduce
-
 `reduce()`는 배열을 기반으로 하나의 값을 도출할 때 사용한다. reduce의 인수로 넘기는 함수의 첫 번째 인수는 **accumulator(누산기)** 라고 할 수 있으며, 함수의 결과가 누적되어 저장되고 마지막 함수까지 호출되면 이 값이 `reduce()`의 반환값이 된다.
 
 ```js
@@ -143,7 +139,6 @@ console.log(names.reduce((pre, val) => pre + ' ' + val)); // Tom Jane Sam
 ```
 
 ### reduceRight
-
 `reduce()`와 유사한 메서드로 `reduceRight()`가 있다. 원리와 사용법은 동일하며 배열의 오른쪽 요소부터 작업을 수행한다는 점이 다르다.
 
 **참고:**

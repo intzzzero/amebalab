@@ -5,6 +5,8 @@ draft: false
 path: "/blog/what-is-this"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 **`this`는 호출하는 방식에 따라 달라지며, 크게 다섯 가지 경우로 나눌 수 있다.**
 
 ## 1. 전역에서 this는 언제나 window

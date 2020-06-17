@@ -5,6 +5,8 @@ draft: false
 path: "/blog/react-init-setting"
 ---
 
+![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
+
 ## 사전 준비
 리액트는 `cra`라는 무척 편리한 도구를 제공하고 있다. 이는 `create-react-app`의 줄임말로써 리액트 공식문서에서는 **새로운 싱글 페이지 앱을 만들기 위한 툴(tool)** 로 칭하고 있다.
 
@@ -75,4 +77,4 @@ npm install node-sass --save
 - 페이지 간 이동을 관리하는 라우트 파일
 
 **public**
-- index.html이 위치하고 있으며 mock data가 필요할 경우 이곳에 data 폴더 생성 후 관리한다.
+- `<div id="root"></div>`가 담긴 index.html이 위치하고 있으며 mock data가 필요할 경우 이곳에 data 폴더 생성 후 관리한다.

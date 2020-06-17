@@ -5,6 +5,8 @@ draft: false
 path: "/blog/data-type"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ## 데이터 타입(Data Type)
 데이터 타입은 프로그래밍 언어의 가장 기본적인 구성 요소이며, 자바스크립트 역시 다양한 데이터 타입을 갖고 있다.
 자바스크립트의 데이터 타입은 크게 두 종류로 나눌 수 있는데, 원시 타입(Primitive Type)과 객체 타입(Object Type)이 바로 그것이다. 그리고 원시 타입은 다시 여섯 종류로 나누어진다.
