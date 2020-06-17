@@ -51,28 +51,28 @@ npm install node-sass --save
 
 명령어 뒤에 `--save`는 옵션이긴 한데, 이렇게 하면 `package.json`에 설치와 동시에 `dependencies`로 등록이 되므로 편리하다.
 
-	>  프로젝트 실행에 필요한 자원들은 `node_modules`에 모여있는데, 워낙 방대하여 일반적으로는 `.gitignore`에  등록하여 스테이징을 하지 않는다. 따라서 해당 프로젝트를 공유 받는 경우에는 `npm install`을 통해 	`node_modules`를 별도로 받아야 하는데 이때, `dependencies`에 등록된 라이브러리는 자동으로 설치가 된다.
+> 프로젝트 실행에 필요한 자원들은 `node_modules`에 모여있는데, 워낙 방대하여 일반적으로는 `.gitignore`에  등록하여 스테이징을 하지 않는다. 따라서 해당 프로젝트를 공유 받는 경우에는 `npm install`을 통해 `node_modules`를 별도로 받아야 하는데 이때, `dependencies`에 등록된 라이브러리는 자동으로 설치가 된다.
 
 ### 폴더 구성
 주로 작업이 이루어지는 파일들은 `src` 폴더에 자리하고 있으며, 이곳에서 프로젝트에 필요한 자원의 용도나 성격에 따라 다시 폴더를 나눈다. 기본적으로는 아래와 같이 나눌 수 있겠다.
 
 **Components**
-	- 여러 페이지에 공통적으로 사용되는 컴포넌트를 관리
-	- ex: Nav, Footer 등
+- 여러 페이지에 공통적으로 사용되는 컴포넌트를 관리
+- ex: Nav, Footer 등
 
 **Pages**
-	- 하나의 페이지를 구성하는 틀의 역할을 하는 컴포넌트를 관리
-	- ex: Login, Main, MyPage 등
+- 하나의 페이지를 구성하는 틀의 역할을 하는 컴포넌트를 관리
+- ex: Login, Main, MyPage 등
 
 **Styles**
-	- 공통적으로 적용되는 스타일을 관리
-	- ex: reset.scss - `box-sizing: border-box;`
+- 공통적으로 적용되는 스타일을 관리
+- ex: reset.scss - `box-sizing: border-box;`
 
 **Images**
-	- 각 컴포넌트에 사용되는 이미지를 통합 관리
+- 각 컴포넌트에 사용되는 이미지를 통합 관리
 
 **Routes.js**
-	- 페이지 간 이동을 관리하는 라우트 파일
+- 페이지 간 이동을 관리하는 라우트 파일
 
 **public**
-	- index.html이 위치하고 있으며 mock data가 필요할 경우 이곳에 data 폴더 생성 후 관리한다.
+- index.html이 위치하고 있으며 mock data가 필요할 경우 이곳에 data 폴더 생성 후 관리한다.
