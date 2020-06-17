@@ -84,7 +84,41 @@ export default LikesCounter;
 - [Component와 Props](https://ko.reactjs.org/docs/components-and-props.html)
 
 ## event
-리액트에서 이벤트는 모두 camelCase를 사용한다. 또한, DOM 조작은 모두 리액트에 위임하기 때문에 Vanilla JavaScript에서처럼 일일이 `addEventListener`를 호출할 필요도 없다. 여타 attribute처럼 이벤트를 사용하면 된다.
+리액트에서 이벤트는 모두 camelCase를 사용한다. 또한, DOM 조작은 모두 리액트에 위임하기 때문에 Vanilla JavaScript에서처럼 일일이 `addEventListener`를 호출할 필요도 없다. 여타 attribute처럼 이벤트를 사용하면 된다. 아래의 예시 코드를 참고하시라.
+
+```jsx
+import React from 'react';
+
+class Counter extends React.Component {
+  constuctor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    }
+  }
+
+  increaseNumber = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  }
+
+  render() {
+    return (
+      <div>
+      <h2>{this.state.count}</h2>
+      <button
+        type="button"
+        onClick={this.increaseNumber}>
+        Click Here!
+      </button>
+      </div>
+    );
+  }
+}
+
+export default Counter;
+```
 
 **참고:**
 - [Event handling](https://ko.reactjs.org/docs/handling-events.html)
