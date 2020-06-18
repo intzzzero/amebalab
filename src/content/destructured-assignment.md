@@ -5,6 +5,8 @@ draft: false
 path: "/blog/destructured-assignment"
 ---
 
+![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
+
 ```js
 const member = {
   name: ‘codeAmeba’,
