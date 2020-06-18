@@ -68,7 +68,7 @@ componentDidUpdate(prevProps, prevState, snapshot) {
 
 ```jsx
 componentWillUnmount() {
-  clearInter(countDown);
+  clearInterval(countDown);
 }
 ```
 
