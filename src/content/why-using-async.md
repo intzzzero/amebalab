@@ -33,6 +33,9 @@ console.log('3');
 - 파일을 읽고 쓰는 등의 파일시스템 작업
 - 의도적으로 시간을 지연시켜 실행을 예약해야 하는 작업
 
+다만, 콜백으로 비동기 작업을 수행하기에는 한계가 있다. 끔찍하다고 소문이 자자한 **콜백 지옥(call back hell)** 도 있고 말이다. 그래서 등장한 것이 프라미스다.
+
 **참고:**
 - [poiemaweb | 동기와 비동기](https://poiemaweb.com/js-async)
 - [코어자바스크립트 | 콜백](https://ko.javascript.info/callbacks)
+- [코어자바스크립트 | 프라미스](https://ko.javascript.info/promise-basics)
