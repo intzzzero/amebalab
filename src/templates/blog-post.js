@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Utterances from '../components/utterances';
+import '../images/';
 
 const Content = styled.div`
 	margin: 0 auto;

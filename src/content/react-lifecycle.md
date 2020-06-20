@@ -74,6 +74,47 @@ componentWillUnmount() {
 
 컴포넌트가 할일을 마친 뒤 실행되는 메서드로 위와 같이 더 이상 반복할 필요가 없는 작업이나 사용하지 않는 라이브러리 등을 이곳에서 해제하면 좋다.
 
+## 실행 순서를 알 수 있는 예시 코드
+
+간단히 리액트 컴포넌트들의 실행 순서를 알아볼 수 있는 코드를 작성해봤다. 아래의 코드를 실행 후, 그리고 버튼을 눌렀을 때, 콘솔에는 어떤 순서로 내용이 나오는지 살펴보자.
+버튼은 세 번 클릭했다.
+
+```jsx
+class App extends React.Component {
+  state = {
+    counter: 1
+  };
+  constructor(props) {
+    super(props);
+
+    console.log('constructor');
+  }
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+  componentDidUpdate() {
+    console.log('componentDidUpdate');
+  }
+  handleClick = () => {
+    console.log('click func');
+    this.setState({
+      counter: this.state.counter + 1
+    });
+  };
+  render() {
+    console.log('render');
+    return (
+      <div>
+        <MyComponent value={this.state.counter} />
+        <button onClick={this.handleClick}>Click me</button>
+      </div>
+    );
+  }
+}
+```
+
+![컴포넌트의 실행 순서](../images/react-exe-process.png)
+
 **참고:**
 - [누구든지 하는 리액트 | LifeCycle API](https://react-anyone.vlpt.us/05.html)
 - [React | State and Lifecycle](https://ko.reactjs.org/docs/state-and-lifecycle.html)
