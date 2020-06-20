@@ -54,3 +54,6 @@ npm i prettier eslint-config-prettier eslint-plugin-prettier -D
 "prettier.disableLanguages": ["js"],
 "files.autoSave": "onFocusChange"
 ```
+
+**참고:**
+- [27. 리액트 개발 할 때 사용하면 편리한 도구들 - Prettier, ESLint, Snippet · GitBook](https://react.vlpt.us/basic/27-useful-tools.html)
