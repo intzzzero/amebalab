@@ -7,6 +7,7 @@ path: "/blog/prototype-chain"
 
 ![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
+## 프로토타입(prototype)
 자바스크립트의 모든 객체는 `[[Prototype]]`이라고 하는 **내부 슬롯(internal slot)**을 지닌다. 하위 객체는 상위 객체의 `prototype`을 상속받으며, 상속받은 데이터는 `__proto__`에 저장된다.
 
 ```js
@@ -27,6 +28,7 @@ whoseCat.__proto__ = yourCat;
 whoseCat.sayHello(); // Hello! Tom
 ```
 
+## 프로토타입 체인(prototype chain)
 위와 같이 `__proto__`를 통해 하위 객체와 상위 객체가 이어져 있으며, 이를 **프로토타입 체인** 이라고 한다. 그리고, 자신과 가까운 객체의 프로퍼티부터 위로 거슬러 올라가며 검색하게 된다.
 
 ### Object.getPrototypeOF()

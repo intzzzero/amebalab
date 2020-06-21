@@ -7,6 +7,9 @@ path: "/blog/react-init-setting"
 
 ![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
 
+## 함수의 실행 절차
+아래의 예시 코드에서 `console.log()`의 인자가 출력되는 내용을 통해 함수의 실행 절차를 알아보자.
+
 ```js
 var a = 1;
 function outer() {
