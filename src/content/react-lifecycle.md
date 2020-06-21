@@ -113,7 +113,7 @@ class App extends React.Component {
 }
 ```
 
-![컴포넌트의 실행 순서](../images/react-exe-process.png)
+![컴포넌트의 실행 순서](https://github.com/codeAmeba/amebalab/blob/master/src/images/react-exe-process.png?raw=true)
 
 **참고:**
 - [누구든지 하는 리액트 | LifeCycle API](https://react-anyone.vlpt.us/05.html)
