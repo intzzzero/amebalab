@@ -2,7 +2,7 @@
 title: "함수의 실행 절차"
 date: "2020-06-13"
 draft: false
-path: "/blog/react-init-setting"
+path: "/blog/function-execution-process"
 ---
 
 ![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
