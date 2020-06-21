@@ -20,12 +20,12 @@ const f = (a, b) => ({x:a, y:b}); // 반환값이 객체 리터럴이라면 괄�
 (x => x*x)(3); // 즉시실행함수(IIFE)로 화살표 함수 사용 가능
 ```
 
-### 일반 함수와 화살표 함수의 차이.
-1. **this**
-- 함수 리터럴로 정의한 함수는 `this`의 값이 함수를 호출할 때 결정되지만, 화살표 함수의 `this`값은 함수를 정의할 때 결정된다.
+## 일반 함수와 화살표 함수의 차이.
+### this
+함수 리터럴로 정의한 함수는 `this`의 값이 함수를 호출할 때 결정되지만, 화살표 함수의 `this`값은 함수를 정의할 때 결정된다.
 
-2. **arguments 변수가 없음**
-- 화살표 함수 안에는 arguments 변수가 정의되어 있지 않아 사용할 수 없다.
+### arguments 변수가 없음
+화살표 함수 안에는 arguments 변수가 정의되어 있지 않아 사용할 수 없다.
 
   ```js
   const f  = () => console.log(arguments);
@@ -35,8 +35,8 @@ const f = (a, b) => ({x:a, y:b}); // 반환값이 객체 리터럴이라면 괄�
   s(); // Arguments [callee: ƒ, Symbol(Symbol.iterator): ƒ]
   ```
 
-3. **생성자로 사용 불가**
-- 화살표 함수 앞에는 `new` 연산자를 붙여 호출할 수 없다.
+### 생성자로 사용 불가
+화살표 함수 앞에는 `new` 연산자를 붙여 호출할 수 없다.
 
   ```js
   const Person = (name, age) => {this.name = name; this.age = age;};
@@ -48,8 +48,8 @@ const f = (a, b) => ({x:a, y:b}); // 반환값이 객체 리터럴이라면 괄�
   console.log(americano.price); // 4100
   ```
 
-4. **yield 키워드를 쓸 수 없다**
-- 화살표 함수 안에서는 `yield` 키워드를 쓸 수 없으며, 따라서 화살표 함수는 제너레이터의 기능을 수행할 수 없다.
+### yield 키워드를 쓸 수 없다
+화살표 함수 안에서는 `yield` 키워드를 쓸 수 없으며, 따라서 화살표 함수는 제너레이터의 기능을 수행할 수 없다.
 
 **참고:**
 - [화살표 함수 - JavaScript | MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
