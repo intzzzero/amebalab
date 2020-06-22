@@ -55,5 +55,16 @@ npm i prettier eslint-config-prettier eslint-plugin-prettier -D
 "files.autoSave": "onFocusChange"
 ```
 
+위의 설정은 VSCode 자체 설정이며, 특정 프로젝트에 다른 규칙을 적용하기 위해서는 `.prettierrc.json`을 생성하고 아래와 같이 별도의 설정을 추가한다.
+
+```json
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true
+}
+```
+
 **참고:**
 - [27. 리액트 개발 할 때 사용하면 편리한 도구들 - Prettier, ESLint, Snippet · GitBook](https://react.vlpt.us/basic/27-useful-tools.html)
