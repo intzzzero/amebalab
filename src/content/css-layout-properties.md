@@ -10,7 +10,7 @@ path: "/blog/layout-properties"
 ## 웹 페이지의 레이아웃(layout)
 웹 페이지의 레이아웃을 구성하는데 유용한 CSS의 프로퍼티에는 크게 `display`, `position`, `float`가 있으며, 이 세 가지 프로퍼티를 활용함에 있어서는 기본적으로 **박스모델** 에 대한 이해가 필요하다.
 
-[](https://codeameba.github.io/2020/05/25/programming/css-box-model)
+[CSS 박스 모델(Box Model)을 알아보자](https://codeameba.netlify.app/blog/box-model)
 
 ## display
 `display`는 해당 요소를 블록(block)과 인라인(inline) 둘 중 어떤 방식으로 자리를 차지하게 할지 정하는 프로퍼티다. 이를 통해 `<div>`, `<p>` 등의 블록 요소를 인라인으로 바꿀 수도 있고, `<span>`고 같은 인라인 요소를 블록으로 바꿀 수도 있다. 그 외에도 `flow`, `flex`, `grid`처럼 반응형 웹에 적절하게 사용 가능한 속성도 있다.
