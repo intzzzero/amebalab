@@ -27,14 +27,6 @@ const MarkerHeader = styled.h3`
 const PostTitle = styled.p`
   margin-top: 0.3rem;
   display: inline-block;
-  background-image: linear-gradient(rgba(220, 255, 0, 0.8), rgba(220, 255, 0, 0.8));
-		background-repeat: no-repeat;
-		background-size: 100% 0.2em;
-		background-position: 0 88%;
-		transition: background-size 0.25s ease-in;
-		&:hover {
-			background-size: 100% 88%;
-		}
 
 `;
 
@@ -51,7 +43,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -62,7 +54,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -73,7 +65,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -84,7 +76,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -95,7 +87,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -106,7 +98,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -117,7 +109,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}
@@ -128,7 +120,7 @@ const IndexPage = ({ data }) => {
         }).map(({ node }) => {
           return (<div key={node.id}>
             <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
-            <PostTitle>{node.frontmatter.title} - {node.frontmatter.rawDate}</PostTitle>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
             </Link>
           </div>)
         })}

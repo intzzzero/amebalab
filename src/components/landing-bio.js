@@ -5,6 +5,7 @@ import styled from "@emotion/styled"
 
 const Container = styled.div`
   text-align: center;
+  transform: rotate(25deg);
 `
 
 const OuterContainer = styled.div`
@@ -15,22 +16,18 @@ const OuterContainer = styled.div`
   height: 78vh;
 `
 
-const ProfileImg = styled.img`
-  max-width: 280px;
-  border-radius: 50%;
-`
-
 const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.6);
 `
 
 const NameHeader = styled.h1`
-  font-size: 3rem;
+  font-size: 8rem;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding: 0 2vw;
+  background-color: rgba(220, 255, 0, 1);
 `
 
 const LandingBio = () => (
@@ -48,9 +45,6 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <a href="/blog">
-            <ProfileImg src="https://avatars2.githubusercontent.com/u/48628740?s=460&u=efdd1063e3824078a65e068bfae89fb4a63e8344&v=4"></ProfileImg>
-          </a>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
         </Container>

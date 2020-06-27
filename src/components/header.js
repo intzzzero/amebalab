@@ -6,16 +6,16 @@ import React from 'react';
 const Content = styled.div`
 	max-width: 860px;
 	padding: 1rem 1.0875rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 `;
 
 const NavLink = styled(Link)`
   color: rgba(0, 0, 0, 0.7);
-  margin-left: 55px;
+  margin-left: 2vw;
   text-decoration: none;
   display: inline-block;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1rem;
 
 
   ::after {
@@ -38,37 +38,10 @@ const NavLink = styled(Link)`
   }
 `;
 
-const GitHubLink = styled.a`
-	color: rgba(0, 0, 0, 0.7);
-	margin-left: 55px;
-	text-decoration: none;
-	display: inline-block;
-	position: relative;
-	font-size: 1.2rem;
-
-	::after {
-		content: "";
-		position: absolute;
-		width: 100%;
-		transform: scaleX(0);
-		height: 2px;
-		padding-top: 10px;
-		bottom: 0;
-		left: 0;
-		background-color: rgba(220, 255, 0, 0.8);
-		transform-origin: bottom right;
-		transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-	}
-
-	:hover::after {
-		transform: scaleX(1);
-		transform-origin: bottom left;
-	}
-`;
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
 
 const SiteHeader = styled.header`
@@ -85,9 +58,7 @@ const Header = ({ siteTitle }) => (
 				<HomeLink to="/">{siteTitle}</HomeLink>
 				<NavLink to="/blog">Blog</NavLink>
 				<NavLink to="/category">Category</NavLink>
-				<GitHubLink target="_blank" href="https://github.com/codeAmeba">
-					GitHub
-				</GitHubLink>
+				<NavLink to="/about">About</NavLink>
 			</p>
 		</Content>
 	</SiteHeader>
