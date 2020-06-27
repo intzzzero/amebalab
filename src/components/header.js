@@ -84,6 +84,7 @@ const Header = ({ siteTitle }) => (
 			<p>
 				<HomeLink to="/">{siteTitle}</HomeLink>
 				<NavLink to="/blog">Blog</NavLink>
+				<NavLink to="/category">Category</NavLink>
 				<GitHubLink target="_blank" href="https://github.com/codeAmeba">
 					GitHub
 				</GitHubLink>

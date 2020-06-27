@@ -2,6 +2,7 @@
 title: "참조를 통해 변수에 인공호흡기를 달아주는 클로저(Closure)"
 date: "2020-05-18"
 draft: false
+category: "JavaScript"
 path: "/blog/closure-is-very-important"
 ---
 

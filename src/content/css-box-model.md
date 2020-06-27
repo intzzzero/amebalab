@@ -2,6 +2,7 @@
 title: "CSS 박스 모델(Box Model)을 알아보자"
 date: "2020-05-25"
 draft: false
+category: "CSS"
 path: "/blog/box-model"
 ---
 

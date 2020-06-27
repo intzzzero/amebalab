@@ -2,6 +2,7 @@
 title: "What is this?"
 date: "2020-06-05"
 draft: false
+category: "JavaScript"
 path: "/blog/what-is-this"
 ---
 

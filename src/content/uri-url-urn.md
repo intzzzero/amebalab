@@ -2,6 +2,7 @@
 title: "What is the difference between a URI, a URL and a URN?"
 date: "2020-06-02"
 draft: false
+category: "Network"
 path: "/blog/what-is-uri"
 ---
 

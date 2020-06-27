@@ -2,6 +2,7 @@
 title: "데이터 타입(Data type)의 구분과 이유"
 date: "2020-06-03"
 draft: false
+category: "JavaScript"
 path: "/blog/data-type"
 ---
 

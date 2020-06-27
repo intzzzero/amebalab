@@ -1,7 +1,8 @@
 ---
-title: "[Book Review] Joel on software"
+title: "조엘 온 소프트웨어(Joel on software)"
 date: "2020-06-27"
 draft: false
+category: "book"
 path: "/blog/joel-on-software"
 ---
 

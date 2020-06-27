@@ -2,6 +2,7 @@
 title: "배열(array)를 조작하는 몇 가지 방법"
 date: "2020-06-09"
 draft: false
+category: "JavaScript"
 path: "/blog/array-control"
 ---
 

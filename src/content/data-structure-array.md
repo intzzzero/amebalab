@@ -2,6 +2,7 @@
 title: "Data Structure - Array"
 date: "2020-06-08"
 draft: false
+category: "Computer Science"
 path: "/blog/data-structure-array"
 ---
 

@@ -2,6 +2,7 @@
 title: "자바스크립트 배열(array)의 기본 사항"
 date: "2020-05-20"
 draft: false
+category: "JavaScript"
 path: "/blog/array-basic"
 ---
 

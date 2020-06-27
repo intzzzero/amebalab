@@ -2,6 +2,7 @@
 title: "값의 전달과 참조의 전달"
 date: "2020-06-04"
 draft: false
+category: "JavaScript"
 path: "/blog/pass-by-value-and-reference"
 ---
 

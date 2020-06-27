@@ -2,6 +2,7 @@
 title: "Data Structure - Set"
 date: "2020-06-15"
 draft: false
+category: "Computer Science"
 path: "/blog/data-structure-set"
 ---
 

@@ -1,7 +1,8 @@
 ---
-title: "[Book Review] 프로그래밍 심리학(The psychology of computer programming)"
+title: "프로그래밍 심리학(The psychology of computer programming)"
 date: "2020-05-19"
 draft: false
+category: "book"
 path: "/blog/phychology-of-programming"
 ---
 

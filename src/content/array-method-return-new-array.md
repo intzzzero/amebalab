@@ -2,6 +2,7 @@
 title: "새로운 배열을 반환하는 배열 메서드"
 date: "2020-06-14"
 draft: false
+category: "JavaScript"
 path: "/blog/array-method-return-newarray"
 ---
 

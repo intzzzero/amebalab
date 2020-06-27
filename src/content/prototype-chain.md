@@ -2,6 +2,7 @@
 title: "프로토타입 체인(prototype chain)"
 date: "2020-06-21"
 draft: false
+category: "JavaScript"
 path: "/blog/prototype-chain"
 ---
 

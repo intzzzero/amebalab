@@ -2,6 +2,7 @@
 title: "전역 변수를 왜 지양해야 하는가"
 date: "2020-06-16"
 draft: false
+category: "JavaScript"
 path: "/blog/no-more-global-variables"
 ---
 

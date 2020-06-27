@@ -2,6 +2,7 @@
 title: "함수의 실행 절차"
 date: "2020-06-13"
 draft: false
+category: "JavaScript"
 path: "/blog/function-execution-process"
 ---
 

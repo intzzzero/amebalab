@@ -2,6 +2,7 @@
 title: "구조 분해 할당(destructured assignment)"
 date: "2020-05-27"
 draft: false
+category: "JavaScript"
 path: "/blog/destructured-assignment"
 ---
 

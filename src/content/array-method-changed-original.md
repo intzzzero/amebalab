@@ -2,6 +2,7 @@
 title: "원본 배열을 수정하는 배열 메서드"
 date: "2020-06-12"
 draft: false
+category: "JavaScript"
 path: "/blog/array-method-modify-original"
 ---
 

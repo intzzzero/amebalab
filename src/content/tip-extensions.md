@@ -2,6 +2,7 @@
 title: "쾌적한 자바스크립트 코딩을 위한 VSCode 확장 프로그램 추천"
 date: "2020-06-10"
 draft: false
+category: "TIP"
 path: "/blog/vscode-extensions"
 ---
 

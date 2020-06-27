@@ -2,6 +2,7 @@
 title: "자바스크립트의 함수는 1급 객체"
 date: "2020-06-06"
 draft: false
+category: "JavaScript"
 path: "/blog/first-class-object"
 ---
 

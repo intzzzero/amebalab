@@ -2,6 +2,7 @@
 title: "프로젝트 시작 시 필수, ESLint와 Prettier 세팅"
 date: "2020-06-20"
 draft: false
+category: "TIP"
 path: "/blog/eslint-prettier-setting"
 ---
 

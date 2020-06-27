@@ -2,6 +2,7 @@
 title: "다양한 활용이 가능한 전개 연산자(spread operator)"
 date: "2020-06-18"
 draft: false
+category: "JavaScript"
 path: "/blog/spread-operator"
 ---
 

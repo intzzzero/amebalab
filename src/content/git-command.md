@@ -2,6 +2,7 @@
 title: "자주 쓰는 깃(git)과 터미널(terminal)의 주요 명령어"
 date: "2020-06-03"
 draft: false
+category: "TIP"
 path: "/blog/git-command"
 ---
 

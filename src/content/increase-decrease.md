@@ -2,6 +2,7 @@
 title: "++i 와 i++의 차이"
 date: "2020-06-22"
 draft: false
+category: "JavaScript"
 path: "/blog/increase-decrease"
 ---
 

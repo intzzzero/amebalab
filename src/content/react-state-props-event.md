@@ -1,7 +1,8 @@
 ---
-title: "[React] state와 props 그리고 event"
+title: "state와 props 그리고 event"
 date: "2020-06-15"
 draft: false
+category: "React"
 path: "/blog/react-state-props-event"
 ---
 

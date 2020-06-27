@@ -2,6 +2,7 @@
 title: "표현식(Expression)과 문(Statement)"
 date: "2020-06-02"
 draft: false
+category: "JavaScript"
 path: "/blog/expression-and-statment"
 ---
 
