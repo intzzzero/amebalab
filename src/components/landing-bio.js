@@ -24,9 +24,9 @@ const Description = styled.p`
 `
 
 const NameHeader = styled.h1`
-  font-size: 8rem;
+  font-size: 6rem;
   margin-bottom: 0;
-  padding: 0 2vw;
+  padding: 0 1vw;
   background-color: rgba(220, 255, 0, 1);
 `
 
@@ -45,7 +45,7 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
+          <NameHeader><i>{data.site.siteMetadata.title}</i></NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
         </Container>
       </OuterContainer>

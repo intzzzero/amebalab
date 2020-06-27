@@ -52,8 +52,7 @@ const IndexPage = () => {
 			<Content>
       <ProfileImg src="https://avatars2.githubusercontent.com/u/48628740?s=460&u=efdd1063e3824078a65e068bfae89fb4a63e8344&v=4" />
 			<TextWrapper>
-        <p>플로리스트, 디자이너, 마케터 그리고 마침내 <strong>'개발자'</strong></p>
-        <p>개발자 <i>codeAmeba</i>의 주관적 생각과 객관적 정보의 아카이브</p>
+        <p>주관적 생각과 객관적 정보의 아카이브</p>
       </TextWrapper>
       <SnsLinks>
         <a href="https://github.com/codeAmeba">Github</a>
