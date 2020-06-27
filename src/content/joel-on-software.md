@@ -29,4 +29,4 @@ path: "/blog/joel-on-software"
 
 **다른 북리뷰:**
 - [프로그래밍 심리학](https://codeameba.netlify.app/blog/phychology-of-programming)
-- [프로그래머의 길, 멘토에게 묻다](https://codeameba.netlify.app/blog/apprenticeship-patterns)1
+- [프로그래머의 길, 멘토에게 묻다](https://codeameba.netlify.app/blog/apprenticeship-patterns)
