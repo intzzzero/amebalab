@@ -10,11 +10,9 @@ path: "/blog/box-model"
 ## CSS의 기본이자 핵심은 BOX
 CSS에서 가장 기본적이자 가장 중요한 개념은 단연 **박스 모델(Box model)**이라고 할 수 있겠다. 이것을 모르면 절대 웹 페이지의 레이아웃을 구성할 수가 없다. 박스 모델은 아래의 그림과 같다.
 
-![box model]()
+![box model](https://github.com/codeAmeba/amebalab/blob/master/src/images/css-box-model.jpg?raw=true)
 
 Content는 내용, Padding은 안쪽 여백, Border는 테두리, Margin은 바깥 여백을 말한다. 이것들이 웹 페이지의 레이아웃을 정하는 가장 기본적인 요소들이라고 할 수 있다. 
-
-![box model]()
 
 아무 웹 페이지에서라도 개발자 도구를 실행 시키면 쉽게 확인할 수 있는데, 이를 통해 웹 페이지를 구성하는 모든 것이 결국 박스의 집합이라는 사실을 알 수 있다.
 
@@ -36,13 +34,13 @@ Content는 내용, Padding은 안쪽 여백, Border는 테두리, Margin은 바�
 
 그러면, 다음과 같은 형태의 박스를 확인할 수 있다. 가로, 세로 값을 지정하지 않았기 때문에 `<div>`의 기본값인 block이 적용되어 화면 전체를 차지하며, 기본 margin이 적용되어 가장자리에 여백이 있는 것을 확인할 수 있다.
 
-![box model]()
+![box model](https://github.com/codeAmeba/amebalab/blob/master/src/images/class-box-02.jpg?raw=true)
 
 마찬가지로 margin에도 임의의 값을 지정할 수 있으며, 기본으로 주어진 8px의 margin을 제거할 수도 있다.
 
 
 ## box-sizing
-![box sizing]()
+![box sizing](https://github.com/codeAmeba/amebalab/blob/master/src/images/box-sizing.jpg?raw=true)
 
 위의 BOX 01과 BOX 02의 사이즈는 같은가 다른가? 놀랍게도 같은 크기다. 좀 더 자세히 말하자면, 눈에 보이는 사이즈는 다르지만, 실제 적용된 너비와 높이는 동일하다. 코드는 아래와 같다.
 
