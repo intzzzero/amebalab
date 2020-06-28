@@ -12,6 +12,7 @@ const Content = styled.div`
 `;
 
 const MarkedHeader = styled.h1`
+	font-size: 1.7rem;
 	display: inline;
 	border-radius: 1em 0 1em 0;
 	background-image: linear-gradient(
@@ -22,7 +23,7 @@ const MarkedHeader = styled.h1`
 	);
 `;
 
-const HeaderDate = styled.h3`
+const HeaderDate = styled.h5`
 	margin-top: 10px;
 	color: #606060;
 `;
