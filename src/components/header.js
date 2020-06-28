@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const Content = styled.div`
-	max-width: 860px;
 	padding: 1rem 1.0875rem;
   font-size: 1rem;
   position: fixed;
@@ -54,6 +53,9 @@ const HomeLink = styled(NavLink)`
 const SiteHeader = styled.header`
 	background: transparent;
   height: 50px;
+  display: flex;
+	align-content: center;
+  justify-content: center;
 `;
 
 const Header = ({ siteTitle }) => (
