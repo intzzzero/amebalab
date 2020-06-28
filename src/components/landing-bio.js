@@ -20,12 +20,12 @@ const OuterContainer = styled.div`
 const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgba(0, 0, 0, 0.6);
 `
 
 const NameHeader = styled.h1`
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 0;
   padding: 0 100vw;
   background-color: rgba(220, 255, 0, 1);
