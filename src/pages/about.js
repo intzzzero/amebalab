@@ -15,7 +15,7 @@ const Content = styled.div`
 `;
 
 const ProfileImg = styled.img`
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 50%;
 `;
 
