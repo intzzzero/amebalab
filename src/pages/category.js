@@ -27,7 +27,6 @@ const MarkerHeader = styled.h3`
 const PostTitle = styled.p`
   margin-top: 0.3rem;
   display: inline-block;
-
 `;
 
 
