@@ -6,12 +6,19 @@ import React from 'react';
 const Content = styled.div`
 	max-width: 860px;
 	padding: 1rem 1.0875rem;
-	font-size: 1rem;
+  font-size: 1rem;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+	align-content: center;
+  justify-content: center;
 `;
 
 const NavLink = styled(Link)`
   color: rgba(0, 0, 0, 0.7);
-  margin-left: 5vw;
+  margin-left: 6vw;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -46,9 +53,7 @@ const HomeLink = styled(NavLink)`
 
 const SiteHeader = styled.header`
 	background: transparent;
-	display: flex;
-	align-content: center;
-	justify-content: center;
+  height: 50px;
 `;
 
 const Header = ({ siteTitle }) => (

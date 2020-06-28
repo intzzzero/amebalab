@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 
+
 const Container = styled.div`
   text-align: center;
   transform: rotate(25deg);

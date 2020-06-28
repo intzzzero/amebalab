@@ -35,7 +35,7 @@ const GatsbyLink = styled.a`
 `
 
 const FooterContainer = styled.div`
-  margin: 0;
+  margin: 5vh 0;
   padding: 0;
   width: 100%;
   height: 20px;
@@ -45,7 +45,6 @@ const FooterContainer = styled.div`
 
 const Footer = styled.footer`
   position: absolute;
-  bottom: -50px;
   display: flex;
   justify-content: center;
   font-size: 0.8em;
