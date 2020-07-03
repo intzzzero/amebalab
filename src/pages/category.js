@@ -47,6 +47,17 @@ const IndexPage = ({ data }) => {
           </div>)
         })}
 
+        <MarkerHeader>Think</MarkerHeader>
+				{data.allMarkdownRemark.edges.filter(({ node }) => {
+          return node.frontmatter.category === 'think';
+        }).map(({ node }) => {
+          return (<div key={node.id}>
+            <Link to={node.frontmatter.path} css={css`text-decoration: none; color: inherit;`}>
+            <PostTitle>{node.frontmatter.title}</PostTitle>
+            </Link>
+          </div>)
+        })}
+
         <MarkerHeader>JavaScript</MarkerHeader>
 				{data.allMarkdownRemark.edges.filter(({ node }) => {
           return node.frontmatter.category === 'JavaScript';
