@@ -9,7 +9,7 @@ const Content = styled.div`
   position: fixed;
   z-index: 100;
   width: 100vw;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
   display: flex;
 	align-content: center;
   justify-content: center;
