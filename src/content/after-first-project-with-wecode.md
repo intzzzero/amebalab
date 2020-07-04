@@ -26,7 +26,7 @@ path: "/blog/after-first-project-with-wecode"
 샤넬의 공식 홈페이지는 전체적으로 미니멀한 디자인으로 이루어져 있기에 언뜻 보면 별다른 기능이나 효과가 눈에 띄지 않지만, 페이지를 하나 하나 살펴보면 디테일한 효과나 기능에 공을 많이 들였음을 알 수 있다. 여타 홈페이지에서는 보기 드문 효과들도 있기에 이번 기회를 통해 경험해본다면 여타 프론트개발자들과 차별화 될 수 있다는 생각으로 선정하였다.
 
 ### 데모 영상(이미지에 링크)
-[![Chanel clone project](../images/video-thumbnail.png)](https://youtu.be/tIeM7EzcDEo)
+[![Chanel clone project](https://github.com/codeAmeba/amebalab/blob/master/src/images/video-thumbnail.png?raw=true)](https://youtu.be/tIeM7EzcDEo)
 
 ### 적용 기술
 **Front-End**
