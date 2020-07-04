@@ -55,10 +55,11 @@ const IndexPage = () => {
         <p>주관적 생각과 객관적 정보의 아카이브</p>
       </TextWrapper>
       <SnsLinks>
-        <a href="https://github.com/codeAmeba">Github</a>
-        <a href="https://www.instagram.com/aprilgreenery/">Instagram</a>
-        <a href="mailto:aprilgreenery@gmail.com">Email</a>
-        <a href="https://codeameba.github.io/front-end-practice/">Practice</a>
+        <a href="https://github.com/codeAmeba" target="_blank">Github</a>
+        <a href="https://www.instagram.com/aprilgreenery/" target="_blank">Instagram</a>
+        <a href="mailto:aprilgreenery@gmail.com" target="_blank">Email</a>
+        <a href="https://codeameba.github.io/front-end-practice/" target="_blank">Practice</a>
+        <a href="https://aprilgreenery.myportfolio.com/" target="_blank">Photography</a>
       </SnsLinks>
       </Content>
 		</Layout>

@@ -6,7 +6,6 @@ category: "think"
 path: "/blog/what-is-good-content"
 ---
 
-## 내가 생각하는 좋은 콘텐츠
 ![](https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
 ### 첫째, 조금이라도 나은 사람이 되었다고 스스로 느낄 수 있는 콘텐츠가 좋은 콘텐츠의 기준이다.
