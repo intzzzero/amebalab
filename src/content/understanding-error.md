@@ -1,5 +1,5 @@
 ---
-title: 오류의 이해
+title: "오류의 이해"
 date: "2020-07-05"
 draft: false
 category: "think"
