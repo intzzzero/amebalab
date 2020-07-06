@@ -5,19 +5,19 @@ import React from 'react';
 
 const Content = styled.div`
 	padding: 1rem 1.0875rem;
-  font-size: 1rem;
-  position: fixed;
-  z-index: 100;
-  width: 100vw;
-  background-color: rgba(255, 255, 255, 0.85);
-  display: flex;
+	font-size: 1rem;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	background-color: rgba(255, 255, 255, 0.85);
+	display: flex;
 	align-content: center;
-  justify-content: center;
+	justify-content: center;
 `;
 
 const NavLink = styled(Link)`
   color: rgba(0, 0, 0, 0.7);
-  margin-left: 6vw;
+  margin-left: 7vw;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -44,7 +44,6 @@ const NavLink = styled(Link)`
   }
 `;
 
-
 const HomeLink = styled(NavLink)`
   margin-left: 0;
   font-size: 1rem;
@@ -52,20 +51,20 @@ const HomeLink = styled(NavLink)`
 
 const SiteHeader = styled.header`
 	background: transparent;
-  height: 50px;
-  display: flex;
+	height: 50px;
+	display: flex;
 	align-content: center;
-  justify-content: center;
+	justify-content: center;
 `;
 
 const Header = ({ siteTitle }) => (
 	<SiteHeader>
 		<Content>
 			<p>
-				<HomeLink to="/">{siteTitle}</HomeLink>
-				<NavLink to="/blog">Blog</NavLink>
-				<NavLink to="/category">Category</NavLink>
-				<NavLink to="/about">About</NavLink>
+				<HomeLink to='/'>{siteTitle}</HomeLink>
+				<NavLink to='/blog'>Blog</NavLink>
+				<NavLink to='/category'>Category</NavLink>
+				<NavLink to='/about'>About</NavLink>
 			</p>
 		</Content>
 	</SiteHeader>
