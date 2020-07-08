@@ -64,4 +64,4 @@ const OtherUsersContainer = styled.article`
 
 이와 같은 keyframe component를 적용하여 현재(3일차)까지 작업된 랭킹 페이지는 아래와 같은 모습이다.
 
-![kart rider tmi clone 3일차](../images/kart01.gif)
+![kart rider tmi clone 3일차](https://github.com/codeAmeba/amebalab/blob/master/src/images/kart01.gif?raw=true)
