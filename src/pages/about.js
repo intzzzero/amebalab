@@ -5,34 +5,36 @@ import SEO from '../components/seo';
 
 const Content = styled.div`
 	margin: 0 auto;
-  height: 80vh;
+	height: 80vh;
 	max-width: 860px;
 	padding: 1.45rem 1.0875rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: rgba(255, 255, 255, 0.9);
 `;
 
 const ProfileImg = styled.img`
-  max-width: 300px;
-  border-radius: 50%;
+	max-width: 300px;
+	border-radius: 50%;
 `;
 
 const TextWrapper = styled.div`
-  p {
-    font-size: 0.8rem;
-  }
+	p {
+		font-size: 0.9rem;
+	}
 `;
 
 const SnsLinks = styled.div`
-  font-size: 0.8rem;
-  margin-top: 3vh;
+	font-size: 0.9rem;
+	margin-top: 3vh;
 
 	a {
-    margin: 5px;
+		margin: 5px;
 		text-decoration: none;
 		position: relative;
+		color: rgba(255, 255, 255, 0.9);
 
 		background-image: linear-gradient(rgba(220, 255, 0, 0.8), rgba(220, 255, 0, 0.8));
 		background-repeat: no-repeat;
@@ -40,31 +42,41 @@ const SnsLinks = styled.div`
 		background-position: 0 88%;
 		transition: background-size 0.25s ease-in;
 		&:hover {
-			background-size: 100% 88%;
+			background-size: 100% 100%;
+			color: rgba(28, 32, 34, 1);
 		}
 	}
-`
+`;
 
 const IndexPage = () => {
 	return (
 		<Layout>
-			<SEO title="About" />
+			<SEO title='About' />
 			<Content>
-      <ProfileImg src="https://avatars2.githubusercontent.com/u/48628740?s=460&u=efdd1063e3824078a65e068bfae89fb4a63e8344&v=4" />
-			<TextWrapper>
-        <p>주관적 생각과 객관적 정보의 아카이브</p>
-      </TextWrapper>
-      <SnsLinks>
-        <a href="https://github.com/codeAmeba" target="_blank">Github</a>
-        <a href="https://www.instagram.com/aprilgreenery/" target="_blank">Instagram</a>
-        <a href="mailto:aprilgreenery@gmail.com" target="_blank">Email</a>
-        <a href="https://codeameba.github.io/front-end-practice/" target="_blank">Practice</a>
-        <a href="https://aprilgreenery.myportfolio.com/" target="_blank">Photography</a>
-      </SnsLinks>
-      </Content>
+				<ProfileImg src='https://avatars2.githubusercontent.com/u/48628740?s=460&u=efdd1063e3824078a65e068bfae89fb4a63e8344&v=4' />
+				<TextWrapper>
+					<p>주관적 생각과 객관적 정보의 아카이브</p>
+				</TextWrapper>
+				<SnsLinks>
+					<a href='https://github.com/codeAmeba' target='_blank'>
+						Github
+					</a>
+					<a href='https://www.instagram.com/aprilgreenery/' target='_blank'>
+						Instagram
+					</a>
+					<a href='mailto:aprilgreenery@gmail.com' target='_blank'>
+						Email
+					</a>
+					<a href='https://codeameba.github.io/front-end-practice/' target='_blank'>
+						Practice
+					</a>
+					<a href='https://aprilgreenery.myportfolio.com/' target='_blank'>
+						Photography
+					</a>
+				</SnsLinks>
+			</Content>
 		</Layout>
 	);
 };
 
 export default IndexPage;
-

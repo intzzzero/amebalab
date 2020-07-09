@@ -9,14 +9,14 @@ const Content = styled.div`
 	position: fixed;
 	z-index: 100;
 	width: 100vw;
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(28, 32, 34, 0.7);
 	display: flex;
 	align-content: center;
 	justify-content: center;
 `;
 
 const NavLink = styled(Link)`
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   margin-left: 8vw;
   text-decoration: none;
   display: inline-block;

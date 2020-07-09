@@ -22,7 +22,7 @@ const Content = styled.div`
 `
 
 const Copyright = styled.p`
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   font-size: 0.9em;
 `
 
@@ -31,7 +31,7 @@ const GatsbyLink = styled.a`
   font-size: 0.9em;
   line-height: 1.5rem;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 `
 
 const FooterContainer = styled.div`
@@ -49,7 +49,7 @@ const Footer = styled.footer`
   display: flex;
   justify-content: center;
   font-size: 0.8em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 `
 
 const Layout = ({ children }) => (

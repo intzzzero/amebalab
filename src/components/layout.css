@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  background-color: rgba(28, 32, 34, 1);
 }
 article,
 aside,
@@ -251,7 +252,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
-  border-left: 5px solid rgba(0, 0, 0, 0.8);
+  border-left: 5px solid rgba(220, 255, 0, 1)
 }
 h3 {
   margin-left: 0;

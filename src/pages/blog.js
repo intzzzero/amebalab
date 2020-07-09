@@ -10,34 +10,37 @@ const Content = styled.div`
 	margin: 0 auto;
 	max-width: 860px;
 	padding: 1.45rem 1.0875rem;
+	color: rgba(255, 255, 255, 0.9);
 `;
 
 const ArticleDate = styled.h5`
 	display: inline;
-	color: #606060;
+	color: rgba(255, 255, 255, 0.7);
 `;
 
 const MarkerHeader = styled.h3`
 	margin-top: 1.5rem;
 	display: inline-block;
-	border-radius: 1em 0 1em 0;
-	background-image: linear-gradient(
+	color: rgba(28, 32, 34, 1);
+	/* border-radius: 1em 0 1em 0; */
+	/* background-image: linear-gradient(
 		-100deg,
 		rgba(220, 255, 0, 0.15),
 		rgba(220, 255, 0, 0.8) 100%,
 		rgba(220, 255, 0, 0.25)
-	);
+	); */
+	background-color: rgba(220, 255, 0, 1);
 `;
 
 const ReadingTime = styled.h5`
 	display: inline;
-	color: #606060;
+	color: rgba(255, 255, 255, 0.7);
 `;
 
 const IndexPage = ({ data }) => {
 	return (
 		<Layout>
-			<SEO title="Blog" />
+			<SEO title='Blog' />
 			<Content>
 				{data.allMarkdownRemark.edges
 					.filter(({ node }) => {
