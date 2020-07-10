@@ -1,6 +1,6 @@
 ---
 title: "CSS의 상속(Inheritance)에 대해 알아보자"
-date: "2020-07-09"
+date: "2020-06-09"
 draft: false
 category: "CSS"
 path: "/blog/style-inheritance"
