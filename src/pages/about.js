@@ -19,7 +19,7 @@ const Content = styled.div`
 const ProfileImg = styled.img`max-width: 250px;`;
 
 const TextWrapper = styled.div`
-	p {
+	h3 {
 		font-size: 0.9rem;
 	}
 `;
@@ -53,7 +53,9 @@ const IndexPage = () => {
 			<Content>
 				<ProfileImg src={profileImg} />
 				<TextWrapper>
-					<p>주관적 생각과 객관적 정보의 아카이브</p>
+					<h3>
+						<i>주관적 생각과 객관적 정보의 아카이브</i>
+					</h3>
 				</TextWrapper>
 				<SnsLinks>
 					<a href='https://github.com/codeAmeba' target='_blank'>
