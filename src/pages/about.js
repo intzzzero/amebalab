@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import profileImg from '../images/apple-profile.png';
 
 const Content = styled.div`
 	margin: 0 auto;
@@ -53,7 +54,7 @@ const IndexPage = () => {
 		<Layout>
 			<SEO title='About' />
 			<Content>
-				<ProfileImg src='https://avatars2.githubusercontent.com/u/48628740?s=460&u=efdd1063e3824078a65e068bfae89fb4a63e8344&v=4' />
+				<ProfileImg src={profileImg} />
 				<TextWrapper>
 					<p>주관적 생각과 객관적 정보의 아카이브</p>
 				</TextWrapper>
