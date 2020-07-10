@@ -36,19 +36,19 @@ CSS에는 상속이라는 개념이 있다. 말 그대로 부모 요소(Element)
 </body>
 ```
 
-![](../images/css-inherit-box.jpg)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/css-inherit-box.jpg?raw=true)
 
 코드에서 볼 수 있듯이 first의 하위 태그의 클래스가 second인데, CSS는 first에만 적용했음에도 second까지 변했다. 이것이 CSS의 상속을 단적으로 보여주는 예라고 할 수 있다.
 
 물론 모든 속성이 상속 되지는 않는데, 이는 개발자도구를 실행해보면 아래와 같이 쉽게 확인할 수가 있다.
 
-![](../images/css-inherit.jpg)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/css-inherit.jpg?raw=true)
 
 `Inherited form div.first`라고  명시된 곳을 보면 어떤 속성값들이 상속 되었는지 알 수가 있는데, 그 중에서도 활성화 되어있는 `color`와 `fort-size`가 second에 상속, 적용되었다.
 
 이를 통해 우리가 깨달을 수 있는 것은, 상속이 되어야 편한 속성값들만 상속이 된다는 점이다. 결론적으로, **상속이 있는 이유는 생산성을 높이기 위함**이라고 이해할 수가 있다.  만약, 모든 속성값이 상속 된다면,
 
-![](../images/css-inherit-box2.jpg)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/css-inherit-box2.jpg?raw=true)
 
 이러한 결과가 나왔을 것이다. CSS를 다뤄봤다면 잘 알 테지만, 상속된 속성값 중 필요 없는 것들을 제거 하는 일에 상당한 시간을 할애하게 될 것이다.
 
@@ -86,7 +86,7 @@ CSS에는 상속이라는 개념이 있다. 말 그대로 부모 요소(Element)
 </body>
 ```
 
-![](../images/css-inherit-box3.jpg)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/css-inherit-box3.jpg?raw=true)
 
 상속이 되는 속성값과, 되지 않는 속성값은 아래의 링크에서 자세히 확인할 수 있으니 참고하길 바란다.
 
