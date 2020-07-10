@@ -16,10 +16,7 @@ const Content = styled.div`
 	color: rgba(255, 255, 255, 0.9);
 `;
 
-const ProfileImg = styled.img`
-	max-width: 300px;
-	border-radius: 50%;
-`;
+const ProfileImg = styled.img`max-width: 250px;`;
 
 const TextWrapper = styled.div`
 	p {
