@@ -91,7 +91,7 @@ test('return my name', () => {
 
 이제, `npm test`를 실행해보자.
 
-![pass](../images/first-test.png)
+![pass](https://github.com/codeAmeba/amebalab/blob/master/src/images/first-test.png?raw=true)
 
 기분 좋은 녹색과 함께 PASS가 되었다.
 앞서 사용한 `toEqual()` 이외에도 결과값의 데이터 타입에 따라 적절한 함수들이 있으니 공식문서를 참고하도록 하자.
