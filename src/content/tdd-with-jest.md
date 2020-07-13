@@ -6,10 +6,10 @@ category: "JavaScript"
 path: "/blog/tdd-with-jest"
 ---
 
-![jest](https://miro.medium.com/max/1200/1*Q26gw-kNzOXUqZKRr04T-g.png)
-
 클린 코드나 실용주의 프로그래머 등을 읽다 보니 **단위 테스트** 의 중요성을 반복적으로 강조하는 것을 볼 수 있었다. 그런데 자바스크립트에서는 아직 단위 테스트가 그렇게 활성화되지 않았는지 관련 자료를 찾아 보기 어려웠고, 인프런에서 발견한 자바스크립트 TDD 인강이 있었지만, 최근의 트렌드와는 거리가 있는 재스민(Jasmine)이라는 테스팅 라이브러리를 통해 소개하고 있었다.
 내 나름의 검색을 통해 요즘은 페이스북에서 제작한 테스팅 프레임워크 **Jest** 를 주로 사용한다는 이야기를 보고 Jest를 통해 TDD에 입문하기로 정했다.
+
+![jest](https://miro.medium.com/max/1200/1*Q26gw-kNzOXUqZKRr04T-g.png)
 
 ## Jest 설치
 간단히 사용법을 익히기 위해 프로젝트를 생성한다.
