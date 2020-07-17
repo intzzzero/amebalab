@@ -10,7 +10,7 @@ path: "/blog/joel-on-software"
 
 <br /><br /><div style="clear:left;text-align:left;"><div style="float:left;margin:0 15px 5px 0;"><a href="http://www.yes24.com/Product/Goods/1469763" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="http://image.yes24.com/goods/1469763/M" border="0" alt="조엘 온 소프트웨어 "></a></div><div><p style="line-height:1.2em;font-size:14px;font-weight:bold;">조엘 온 소프트웨어 </p><p style="margin-top:5px;line-height:1.2em;"><a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=233699" target="_blank">박재호</a> 역</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;">2005년 15회 JOLT상 수상작!아마존 선정 컴퓨터 인터넷 부문 10대 도서.Java.net 선정 개발자 &#183; 관리자 필독서.조엘 온 소프트웨어는 조엘 스폴스키가 운영하는 유명한 소프트웨어 개발 블로그인 조엘 온 소프트웨어(http://www.joelonsoftware.com)에 수록한 주옥같은 글 중에서 특히 독자들이 관심을 보일 만한 베스...</p></div></div><br /><br />
 
-## 가볍지만 깊은 조언
+## 가벼운듯 속깊은 조언
 프로그래밍 관련 교양서적 추천 리스트에서 매번 보이는 책 중 하나가 **조엘 온 소프트웨어** 였다.
 타이틀이 주는 느낌 탓에 어딘가 모르게 SF소설인가 싶기도 했는데, 알고 보니 '조엘 스폴스키'라는 이름을 가진 미국 프로그래머의 블로그 타이틀이 '조엘 온 소프트웨어'이며, 그 블로그의 수많은 포스팅 중 몇 가지를 추려 책으로 낸 것이었다.
 이전에 내가 읽었던 대부분의 책들에서 강조하던 **소프트웨어 장인정신** 은 뚜렷한 목적의식과 책임감을 바탕으로 정신을 수양하는 현대판 수행자의 느낌이 강헀다면, 조엘 온 소프트웨어에서 저자 조엘은 마찬가지로 프로페셔널리즘을 강조하되 블로그 포스팅이 주는 특유의 가벼움과 편안함이 있다. 예를 들자면, 대외적으로는 스마트하고 빈틈 없는 이미지의 친한 형이 나랑 맥주 한 잔 하면서 "아~ 그거 그냥 이렇게 해보니까 되더라~" 하는 편안한 말투로 가벼운 듯 말하지만 경험을 바탕으로한 값진 조언이었다는 느낌이랄까.
