@@ -36,11 +36,7 @@ path: "/blog/what-is-scope"
 
 ![](https://cdn-images-1.medium.com/max/2400/1*94wTu61tmltShnyb5U0kgw.png)
 
-스코프도 이와 마찬가지로 단방향으로만 참조만 가능하다. 만약, 아래와 같은 중첩된 스코프가 있다면,
-
-![](https://poiemaweb.com/assets/fs-images/12-2.png)
-
-아래의 그림처럼 이미지를 그릴 수 있다.
+스코프도 이와 마찬가지로 단방향으로만 참조만 가능하다. 만약, 아래와 같은 중첩된 스코프가 있다면, 아래의 그림처럼 이미지를 그릴 수 있다.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*okKkgfvr31oBiI_Gs90CPg.png)
 
