@@ -3,7 +3,7 @@ title: "스코프(Scope)는 취조실 거울처럼 단방향"
 date: "2020-07-17"
 draft: false
 category: "JavaScript"
-path: "/blog/how-to-make-object"
+path: "/blog/what-is-scope"
 ---
 
 ![javascript](https://blog.martinwork.co.kr/images/javascript/javascript.png)
