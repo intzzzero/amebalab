@@ -51,6 +51,11 @@ Enzyme이 없더라도 테스트는 가능하지만, `shallow`나 `mount`와 같
 npm install --save styled-components @types/styled-components
 ```
 
+## React Testing Library
+또 다른 테스팅 라이브러리로 React Testing Library가 있다. 줄여서 RTL이라고 부르기도 하는데, CRA로 프로젝트를 생성하면 기본적으로 설치가 되어 있으므로 별도로 추가 설치는 필요 없다.
+RTL은 기본적으로 Enzyme에 비해 DOM을 위주로 테스트를 진행하며, UI의 라이프사이클이 곧 컴포넌트의 라이프사이클이라는 리액트의 철학과 보다 가깝다. 그리고, Enzyme에 비해 가볍다는 장점도 있다.
+관련 자료를 찾아보면 이러저러한 라이브러리를 설치하라고 하는 경우가 더러 있는데, 해당 자료들의 약 1년 전 자료라는 점과 내가 경험해본바에 의하면 현재는 CRA 포함되기 때문에 추가 설치가 필요 없다.
+
 ### 참고 자료
 - [타입스크립트 공식문서](https://www.typescriptlang.org/docs/handbook/react.html)
 - [벨로퍼트님 포스팅](https://velog.io/@velopert/series/react-testing)
