@@ -10,7 +10,7 @@ path: "/blog/callback"
 
 ## 콜백(Callback)
 다른 함수의 인자(parameter)로 전달되는 함수를 [콜백 함수](https://ko.javascript.info/callbacks) 라고 부른다. 이 콜백 함수를 인자로 받은 함수는 원하는 순간에 콜백 함수를 호출할 수 있고, 제어권을 콜백 함수에게 넘겨준다.
-여기서 제어권을 넘겨준다는 의미는 콜백 함수의 실행 컨텍스트가 생성되어 [콜스택(Callstack)](https://developer.mozilla.org/ko/docs/Glossary/Call_stack) 최상단에 위치한다는 말이며, 즉 콜백 함수를 인자로 받은 함수의 실행이 중단됨을 의미한다.
+여기서 제어권을 넘겨준다는 의미는 콜백 함수의 [실행 컨텍스트](https://poiemaweb.com/js-execution-context)가 생성되어 [콜스택(Callstack)](https://developer.mozilla.org/ko/docs/Glossary/Call_stack) 최상단에 위치한다는 말이며, 즉 콜백 함수를 인자로 받은 함수의 실행이 중단됨을 의미한다.
 
 아래의 코드를 통해 콜백 함수의 동작 원리를 알아보도록 하자.
 
