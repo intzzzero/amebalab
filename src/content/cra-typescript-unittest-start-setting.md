@@ -22,7 +22,7 @@ CRA와 동시에 타입스크립트를 설치하려면 아래와 같이 입력�
 npx create-react-app my-app --template typescript
 ```
 
-그리고, 자동으로 설정되도록 설치된 프로젝트로 이동하여 아래와 같이 입력하면, 관련 모듈들이 설치된다.
+만약 타입스크립트가 적용되지 않은 기존 프로젝트에 추가하고 싶다면, 아래와 같이 입력하면 된다.
 
 ```bash
 npm install --save typescript @types/node @types/react @types/react-dom @types/jest
