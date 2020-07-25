@@ -22,6 +22,7 @@ path: "/blog/after-first-project-with-wecode"
 ### 개발 인원 및 기간
 - 개발 인원: 프론트엔드 3명, 백엔드 3명
 - 개발 기간: 2020/06/22 - 2020/07/03 (2주)
+- [프론트엔드 github 링크](https://github.com/codeAmeba/chanel-clone-frontend?organization=codeAmeba&organization=codeAmeba)
 - [백엔드 github 링크](https://github.com/wecode-bootcamp-korea/9-No.4-backend)
 
 ### 목적
