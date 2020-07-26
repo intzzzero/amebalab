@@ -19,7 +19,7 @@ path: "/blog/react-til-05"
 
 - class형 모듈이 여러모로 할 수 있는 게 많지만, state가 필요하지 않다던가 하는 경우에는 굳이 class형 모듈을 쓰지 않고, 간단하게 함수형 모듈을 사용해도 좋음.
 - 아래와 같이 api에 정해진 파라미터가 있으니 잘 살펴볼 것
-![](/images/api.png)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/api.png?raw=true)
 
 - 받아온 Movies를 `map()`메서드로 렌더링
 - key 빼먹으면 에러 남

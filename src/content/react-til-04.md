@@ -42,7 +42,7 @@ class App extends React.Component {
 }
 ```
 
-![](/images/constructor_first.png)
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/constructor_first.png?raw=true)
 - constructor는 render보다 먼저 호출된다.
 
 ```js
