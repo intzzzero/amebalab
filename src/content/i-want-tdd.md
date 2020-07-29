@@ -1,5 +1,5 @@
 ---
-title: "React에서 유닛테스트(unit test)를 하고 싶다"
+title: "React에서 유닛테스트(unit test)를 하고 싶었던 나는"
 date: "2020-07-30"
 draft: false
 category: "think"
@@ -62,4 +62,4 @@ describe('Main', () => {
 
 위의 방법을 통해 마침내 녹색의 PASS를 볼 수 있게 되었다.
 
-![pass](../images/testpass.png)
+![pass](https://github.com/codeAmeba/amebalab/blob/master/src/images/testpass.png?raw=true)
