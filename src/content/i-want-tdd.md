@@ -56,6 +56,8 @@ describe('Main', () => {
     const closeMenuIcon = getByTestId('closeIcon');
     fireEvent.click(closeMenuIcon);
     console.log('close menu');
+
+    expect(screen.queryByTestId('Menu')).not.toBeInTheDocument();
   });
 });
 ```
