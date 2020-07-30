@@ -15,6 +15,7 @@ path: "/blog/i-want-tdd"
 3. [How to use React Testing Library Tutorial](https://www.robinwieruch.de/react-testing-library)
 4. [React Testing Library Docs](https://testing-library.com/)
 5. [Jest Docs](https://jestjs.io/en/)
+6. [Jest-dom](https://github.com/testing-library/jest-dom#tohavestyle)
 
 TDD는 커녕 유닛테스트를 해본 적도 없고, 심지어 얼마 전까지 프론트엔드는 바로바로 렌더링 결과를 볼 수 있기 때문에 굳이 테스트 코드를 작성할 필요가 없다고 알고 있었다. 그만큼 어떻게 테스트 코드를 작성해야 할지 감을 잡을 수 없었기 때문에 양질의 자료가 있어도 충분히 소화하기 어려웠고, 따라서 기본 개념부터 바로 잡고 차근차근 익힐 수 있는 나름의 계획이 필요했다.
 
