@@ -67,6 +67,6 @@ describe('Main', () => {
 
 ![pass](https://github.com/codeAmeba/amebalab/blob/master/src/images/testpass.png?raw=true)
 
-그리고, 현재 TDD를 하며 구현한 화면의 모습은 아래와 같다.
+그리고, 현재까지 TDD를 하며 구현한 화면의 모습은 아래와 같다.
 
-![bookjournalism clone](../images/bookjournalism.gif)
+![bookjournalism clone](https://github.com/codeAmeba/amebalab/blob/master/src/images/bookjournalism.gif?raw=true)
