@@ -70,8 +70,8 @@ const IndexPage = () => {
 					<a href='https://codeameba.github.io/front-end-practice/' target='_blank'>
 						Practice
 					</a>
-					<a href='https://aprilgreenery.myportfolio.com/' target='_blank'>
-						Photography
+					<a href='https://codeameba.github.io/portfolio/' target='_blank'>
+						Portfolio
 					</a>
 				</SnsLinks>
 			</Content>
