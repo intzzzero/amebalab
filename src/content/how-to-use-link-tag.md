@@ -14,7 +14,7 @@ path: "/blog/how-to-use-link-tag"
 ## 유닛테스트의 순기능
 내가 `Link` 태그를 잘못 사용하고 있다는 사실을 알게 된 것은 전적으로 유닛테스트 덕분이다. 평소와 같은 방법으로 `Header.js` 컴포넌트에 `Link` 태그를 사용하여 각 페이지로 이동할 수 있도록 링크를 걸고 각 페이지에 `Header.js` 컴포넌트를 삽입했었다. 렌더링도 제대로 되었다. 그런데, 테스트를 돌렸더니 아래와 같은 에러가 등장했다.
 
-![error](../images/router-error.png)
+![error](https://github.com/codeAmeba/amebalab/blob/master/src/images/router-error.png?raw=true)
 
 ` Invariant failed: You should not use <Link> outside a <Router>`
 이게 갑자기 무슨 소리인가. `Router` 외부에서 `Link`를 쓰지 말라니.
@@ -26,7 +26,7 @@ path: "/blog/how-to-use-link-tag"
 
 결과적으로는 3번의 방법이 정답이었다. 또한, `Routes.js`는 프로그램 전역에 적용되기 때문에 각 페이지마다 삽입했던 `Header` 태그는 삭제하였다. 무엇보다도 아래와 같이 기분좋게 테스트에 통과할 수 있었다.
 
-![error](../images/router-error-fix.png)
+![error](https://github.com/codeAmeba/amebalab/blob/master/src/images/router-error-fix.png?raw=true)
 
 `Routes.js`는 아래와 같은 모습이다.
 
