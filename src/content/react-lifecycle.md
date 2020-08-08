@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/react-lifecycle"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 리액트 프로젝트에 존재하는 모든 컴포넌트는 생명주기(Lifecycle)을 갖는다. 이것에도 역시 리액트의 철학 **오로지 View만 판다!** 정신이 담겨있는데, 특정 컴포넌트가 렌더링 되어 화면에 보여지기 시작하는 순간이 생명주기의 시작이며, 화면에서 사라지는 순간이 생명주기의 끝이다.
 
 물론 엄밀히 따지면 본격적으로 화면에 보여지기 이전, 준비과정에 있을 때부터가 진정한 생명주기의 시작이라고 볼 수 있는데, 이 배경에는 리액트의 **라이프사이클 메서드(Lifecycle method)** 가 존재한다.

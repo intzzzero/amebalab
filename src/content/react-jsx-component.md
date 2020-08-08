@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/react-jsx-and-component"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 ## JSX
 리액트는 JavaScript 같기도 하고 HTML 같기도 한 특이하고 고유한 문법을 사용한다. 이를 **JSX** 라고 하는데, 공식문서에서는 **JavaScript 확장 문법** 이라고 밝히고 있다.
 

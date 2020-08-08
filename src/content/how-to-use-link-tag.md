@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/how-to-use-link-tag"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 ## Link !== a
 최근 Next.js도 많이 사용한다고는 하지만, 난 아직 리액트 꼬꼬마이기에 React-router-dom을 주로 사용하여 라우팅을 하고 있다. 그런데, 오늘에서야 `Link` 태그의 제대로 된 사용법을 알았다. 그동안에도 계속 쓰긴 했지만, `a`태그와의 큰 차이점을 느끼지 못했고, 무엇보다도 최근에 들어서야 유닛테스트를 하기 시작했기 때문에 나의 `Link` 태그 사용법에 문제가 있는지조차 알지 못했다.
 

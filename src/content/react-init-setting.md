@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/react-init-setting"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 ## 사전 준비
 리액트는 `cra`라는 무척 편리한 도구를 제공하고 있다. 이는 `create-react-app`의 줄임말로써 리액트 공식문서에서는 **새로운 싱글 페이지 앱을 만들기 위한 툴(tool)** 로 칭하고 있다.
 

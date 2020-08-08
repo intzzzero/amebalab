@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/react-using-map-method"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 ## map()이 유용한 순간
 
 ```jsx
