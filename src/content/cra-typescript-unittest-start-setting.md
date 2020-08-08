@@ -6,8 +6,6 @@ category: "React"
 path: "/blog/cra-typescript-unittest-start-setting"
 ---
 
-![react](https://jeonghwan-kim.github.io/assets/imgs/2018/07/16/react-logo.png)
-
 애초부터 12주가 결코 길지 않은 시간이라는 것을 알고는 있었지만, 그 예상보다도 더 빠르게 시간이 지난 듯 하다.
 위코드에서 보낼 수 있는 시간도 어느덧 4주가 채 남지 않았다. 남은 기간 동안 무엇을 익힐 것인지는 오롯이 나에게 달려 있기 때문에 더욱 부담감이 들고 짧게 느껴진다.
 고민에 고민을 거듭한 결과 TypeScript와 유닛 테스트를 중점적으로 파기로 마음 먹었고, 대략 3일 정도를 초기 설정만 붙잡고 씨름하며 CRA를 설치했다 지웠다만 수차례. 마침내 초기 설정을 마쳤다.
