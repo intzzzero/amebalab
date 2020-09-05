@@ -6,6 +6,8 @@ category: "React"
 path: "/blog/wootech-1st-lecture"
 ---
 
+![poster](../images/wootec_poster.jpg)
+
 ## 모두의 고민
 
 개발자의 일은 프로그래밍을 통해 문제를 해결하는 것이며, 이 과정에서 다음과 같은 것들을 고민하게 된다.
