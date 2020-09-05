@@ -2,7 +2,7 @@
 title: "React에서 유닛테스트(unit test)를 하고 싶었던 나는"
 date: "2020-07-30"
 draft: false
-category: "think"
+category: "React"
 path: "/blog/i-want-tdd"
 ---
 
@@ -24,6 +24,7 @@ TDD는 커녕 유닛테스트를 해본 적도 없고, 심지어 얼마 전까�
 그리고, 인프런에 존재하는 몇 안 되는 TDD 강의 중 가장 기본기를 중심으로 이루어지는 강의라고 생각되는 김정환님의 견고한 JS 소프트웨어 만들기를 시청했다. 여기서는 또 다른 테스팅 프레임워크인 [Jasmine](https://jasmine.github.io/index.html)으로 진행되는데 Jest가 Jasmine을 기반으로 만들어졌으며, 실제로 사용하는 메서드에 큰 차이가 없으므로 문제가 없다고 판단했다.
 
 위의 과정을 거치는 데 들인 시간이 약 열흘이었으며, 틈틈이 Jest와 RTL의 공식문서도 참고했다.
+
 > 아직까지는 Jest + Enzyme 조합이 가장 많이 쓰인다고는 하는데, RTL의 상승세가 가파르며, 내부 동작 코드보다 DOM을 위주로 테스트 하는 방식이라는 점이 View에 집중하는 React의 철학과 맞아떨어지기에 RTL을 선택했다. 또한, React 공식문서와 벨로퍼트님도 RTL을 사용한 테스팅을 권장하고있다.
 
 테스트 코드 없이는 구현하지 않는다는 TDD 원칙에 입각하여 평소 즐겨 보는 [북저널리즘](https://www.bookjournalism.com/) 홈페이지를 클로닝 해보기로 마음 먹었고, 이러 저러한 시행착오 끝에 미약하지만 첫 화면을 렌더링시킬 수 있었다.
@@ -37,27 +38,27 @@ TDD는 커녕 유닛테스트를 해본 적도 없고, 심지어 얼마 전까�
 처음에 시도했던 방법은 햄버거아이콘을 클릭했을 때 등장하는 `<Menu />` 컴포넌트가 DOM 상에 존재하는 지 여부를 확인하는 것이었다. 물론 결과적으로 맞는 방법이었다고 생각한다. 그런데, 테스트 코드 작성 과정에서는 우여곡절이 있었다. 햄버거아이콘을 클릭한 후 `<Menu />` 컴포넌트의 유무를 확인했을 때에는 괜찮았지만, 그 이후에 닫힘버튼을 누른 후가 문제였다. 이미 DOM에는 `<Menu />` 컴포넌트가 존재하지 않기에 무엇을 기준으로 확인해야할 지 감이 오지 않았고 몇 시간 동안 빨간 FAIL을 봐야만 했다.
 
 ```js
-describe('Main', () => {
-  it('rendered Main component', () => {
-    const { getByTestId } = render(<Main />);
-    expect(getByTestId('MainContainer')).toBeInTheDocument();
-  });
+describe("Main", () => {
+  it("rendered Main component", () => {
+    const { getByTestId } = render(<Main />)
+    expect(getByTestId("MainContainer")).toBeInTheDocument()
+  })
 
-  it('toggle event to open and close menu', () => {
-    const { getByTestId } = render(<Main />);
-    const openMenuIcon = getByTestId('menuIcon');
+  it("toggle event to open and close menu", () => {
+    const { getByTestId } = render(<Main />)
+    const openMenuIcon = getByTestId("menuIcon")
 
-    fireEvent.click(openMenuIcon);
-    expect(getByTestId('Menu')).toBeInTheDocument();
-    console.log('open menu');
+    fireEvent.click(openMenuIcon)
+    expect(getByTestId("Menu")).toBeInTheDocument()
+    console.log("open menu")
 
-    const closeMenuIcon = getByTestId('closeIcon');
-    fireEvent.click(closeMenuIcon);
-    console.log('close menu');
+    const closeMenuIcon = getByTestId("closeIcon")
+    fireEvent.click(closeMenuIcon)
+    console.log("close menu")
 
-    expect(screen.queryByTestId('Menu')).not.toBeInTheDocument();
-  });
-});
+    expect(screen.queryByTestId("Menu")).not.toBeInTheDocument()
+  })
+})
 ```
 
 그래서 내가 택한 방법은, 컴포넌트가 아닌 이벤트의 작동 유무를 확인하는 쪽이었다. 햄버거아이콘을 클릭했을 때에는 'open menu'가 콘솔에 찍히게 하고, 닫힘아이콘을 클릭했을 때에는 'close menu'가 콘솔에 찍히게 하는 것이다.
