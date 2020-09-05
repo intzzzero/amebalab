@@ -6,7 +6,7 @@ category: "React"
 path: "/blog/wootech-1st-lecture"
 ---
 
-![poster](../images/wootec_poster.jpg)
+![poster](https://github.com/codeAmeba/amebalab/blob/master/src/images/wootech_poster.jpg?raw=false)
 
 ## 모두의 고민
 
