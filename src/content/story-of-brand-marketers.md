@@ -8,6 +8,8 @@ path: "/blog/story-of-brand-marketers"
 
 <div style="clear:left;text-align:left;"><div style="float:left;margin:0 15px 5px 0;"><a href="http://www.yes24.com/Product/Goods/62275735" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="http://image.yes24.com/goods/62275735/M" border="0" alt="브랜드 마케터들의 이야기 "></a></div><div><p style="line-height:1.2em;font-size:14px;font-weight:bold;">브랜드 마케터들의 이야기 </p><p style="margin-top:5px;line-height:1.2em;"><a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=226858" target="_blank">이승희</a>, <a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=226859" target="_blank">정혜윤</a>, <a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=226860" target="_blank">손하빈</a>, <a href="http://www.yes24.com/SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=226862" target="_blank">이육헌</a> 저</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;">『브랜드 마케터들의 이야기』는 배달의민족, 스페이스오디티, 에어비앤비, 트레바리 이렇게 네 브랜드에서 일하는 마케터들이 모여 쓴 책이다. 2018년 6월 26일 기준, 일하는 사람들의 콘텐츠 플랫폼 PUBLY에서 펀딩 기간 중 전체 콘텐츠 중 가장 높은 예약 구매자 수를 기록했다. PUBLY 독자들이 이 디지털 콘텐츠에 손을...</p></div></div><br /><br />
 
+## 브랜드 마케터들의 이야기
+
 지적 콘텐츠 구독 서비스라는 그 동안 우리나라에서는 볼 수 없던 새로운 형태의 비즈니스 모델로 급성장 중인 퍼블리에서 출간한 책이다. 다양한 분야에서 활약 중인 브랜드 마케터들의 경험과 조언이 담겨 있는데, 여러모로 공감 가는 부분이 많아서 끝까지 매끄럽게 읽을 수 있었다. 그 중에서 개인적으로 유의미하게 다가왔던 문장들을 정리해본다.
 ![branding](https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 <br /><br />
