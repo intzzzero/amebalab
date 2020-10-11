@@ -38,14 +38,14 @@ path: "/blog/node-til-03"
 ```javascript
 // browser
 window.myModule = function () {
-  return 'myModule';
-};
+  return "myModule"
+}
 
-myModule(); // "myModule"
+myModule() // "myModule"
 
 // Node.js
-const http = require('http');
-http.createServer();
+const http = require("http")
+http.createServer()
 ```
 
 위의 `http`와 같이 Node.js에서 제공되는 모듈을 가져다 쓸 수도 있고,
@@ -53,15 +53,15 @@ http.createServer();
 ```javascript
 // math.js
 function sum(a, b) {
-  return a + b;
+  return a + b
 }
 module.exports = {
   sum: sum,
-};
+}
 
 // index.js
-const math = require('./math');
-const result = math.sum(1, 2);
+const math = require("./math")
+const result = math.sum(1, 2)
 ```
 
 위의 `math` 모듈처럼 사용자 정의 모듈을 생성하여 내보내고, 가져다 쓸 수 있다. 그 외에도 그때 그때 필요한 라이브러리를 설치하여 서드파티 모듈을 활용할 수도 있다.
@@ -77,16 +77,16 @@ const result = math.sum(1, 2);
 대표적인 예시로 Node.js에는 `readFile`과 `readFileSync`라는 메서드가 있다. 목적만 놓고 보면 동일한 메서드인데, 전자는 비동기로, 후자는 동기로 동작하게 된다.
 
 ```javascript
-const fs = require('fs');
+const fs = require("fs")
 
 // 동기
-const data = fs.readFileSync('./data.txt', 'utf-8');
-console.log(data); // This is data file
+const data = fs.readFileSync("./data.txt", "utf-8")
+console.log(data) // This is data file
 
 // 비동기
-const data = fs.readFile('./data.txt', 'utf-8', function (err, result) {
-  console.log(result); // This is data file
-});
+const data = fs.readFile("./data.txt", "utf-8", function (err, result) {
+  console.log(result) // This is data file
+})
 ```
 
 위의 경우에서 `readFileSync`는 파일을 다 읽을 때까지 후속 코드의 실행을 블록킹하게 되지만, `readFile`은 비동기적으로 동작하기 때문에 파일을 읽는 동안 후속 코드의 실행을 블록킹하지 않고, 파일을 다 읽었다는 이벤트가 발생했을 때 콜백함수가 실행된다. 만일 이때, 파일을 제대로 못 읽었다거나 그외 어떤 에러가 있다면 콜백함수의 첫 번째 파라미터인 `err`에 값이 담기게 되고, 에러가 없다면 두 번째 파라미터에 값이 담긴다.
@@ -103,25 +103,25 @@ const data = fs.readFile('./data.txt', 'utf-8', function (err, result) {
 // index.js
 
 //  Node.js의 기본 모듈 중 http라는 모듈을 가져와서 변수에 할당
-const http = require('http');
+const http = require("http")
 
 // hostname과 port에 각각 원하는 값을 할당
-const hostname = '127.0.0.1';
-const port = 3000;
+const hostname = "127.0.0.1"
+const port = 3000
 
 // http 모듈의 메서드 중 createServer 메서드를 사용. request와 response를 파라미터로 받는 콜백함수를 파라미터로 넣은 값을 server라는 변수에 할당
 const server = http.createServer((req, res) => {
   // 서버에 요청이 들어왔을 때 동작하는 코드
-  res.statusCode = 200; // 요청에 대한 응답 상태코드
-  res.setHeader('Content-Type', 'text/plain'); // 응답 데이터의 종류와 형태 정보를 헤더에 담음
-  res.end('Hello Node'); // 요청에 의해 'Hello Node'라는 문자열을 클라이언트로 보냄
-});
+  res.statusCode = 200 // 요청에 대한 응답 상태코드
+  res.setHeader("Content-Type", "text/plain") // 응답 데이터의 종류와 형태 정보를 헤더에 담음
+  res.end("Hello Node") // 요청에 의해 'Hello Node'라는 문자열을 클라이언트로 보냄
+})
 
 // listen 메서드는 서버를 요청 대기상태로 만들어주는 함수다. 여기서 대기상태란, 서버가 클라이언트로부터 요청을 받기 위해 종료되지 않고 대기 중인 상태를 말한다.
 // listen 메서드는 port, hostname, 그리고 listen 메서드가 완료되면 호출되는 콜백함수까지 총 3개의 파라미터를 받는다.
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+  console.log(`Server running at http://${hostname}:${port}/`)
+})
 ```
 
 이를 통해 간단히 서버를 실행하고 Hello Node를 확인할 수 있다. 서버를 띄우기 위해서는 터미널에서 `node index.js`를 입력한 뒤 브라우저를 열어 `localhost:3000`으로 접속해보면 확인할 수 있다. 또는, 다른 터미널을 하나 더 열어 `curl -X GET 'localhost:3000'`을 입력하면 브라우저에 출력된 내용을 터미널에서 확인 가능하다.
@@ -138,19 +138,19 @@ server.listen(port, hostname, () => {
 // index.js
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Node');
-  } else if (req.url === '/users') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('User List');
+  if (req.url === "/") {
+    res.statusCode = 200
+    res.setHeader("Content-Type", "text/plain")
+    res.end("Hello Node")
+  } else if (req.url === "/users") {
+    res.statusCode = 200
+    res.setHeader("Content-Type", "text/plain")
+    res.end("User List")
   } else {
-    res.statusCode = 404;
-    res.end('Not Found');
+    res.statusCode = 404
+    res.end("Not Found")
   }
-});
+})
 ```
 
 위와 같은 조건으로 서버를 실행했을 때, `curl -X GET '127.0.0.1:3000'`에는 'Hello Node'가, `curl -X GET '127.0.0.1:3000/user'`에는 'Not Found'가 출력되는 것을 볼 수 있다. 특정한 요청에 특정한 응답을 전달해야 하는 API의 기본적인 원리가 이와 같다고 할 수 있다. 그러나, 보통의 경우 적지 않은 API가 필요한데 일일이 위와 같이 분기하는 것은 상당히 비효율적이다. 그래서 보다 효율적이고 간단하게 라우팅 처리를 할 수 있는 도구를 이용해야 하는 대표적으로 Express.js가 있다.
@@ -173,24 +173,24 @@ Express.js는 Node.js로 만들어진 웹 프레임워크다. Express.js에는 �
 Express.js의 인스턴스(객체)를 어플리케이션이라고 한다.
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 ```
 
 위와 같이 Express.js 모듈을 가져와 `app`이라는 변수에 `express` 객체를 할당하는데, 이때 `app`이 어플리케이션이라는 개념이다. 이렇게 만들어진 어플리케이션을 통하여 **서버에 필요한 기능인 미들웨어를 추가** 할 수 있고, **라우팅 설정** 도 할 수 있으며,
 
 ```javascript
-const express = require('express');
-const app = express();
-const port = 3000;
+const express = require("express")
+const app = express()
+const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello Express');
-});
+app.get("/", (req, res) => {
+  res.send("Hello Express")
+})
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 ```
 
 위와 같이 `listen` 메서드를 쓸 수 있기 때문에 **서버를 요청 대기 상태로 만들 수** 도 있다.
@@ -202,19 +202,19 @@ app.listen(port, () => {
 ### 미들웨어 예시
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
 function logger(req, res, next) {
-  console.log('I am logger');
-  next();
+  console.log("I am logger")
+  next()
 }
 
-app.use(logger);
+app.use(logger)
 
 app.listen(3000, () => {
-  console.log(`Example app listening at http://localhost:3000`);
-});
+  console.log(`Example app listening at http://localhost:3000`)
+})
 ```
 
 미들웨어를 사용할 때에는 `use()` 메서드에 사용할 미들웨어를 파라미터로 넣어준다.
@@ -228,25 +228,25 @@ app.listen(3000, () => {
 ### 미들웨어의 실행 순서
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
 function logger(req, res, next) {
-  console.log('I am logger');
+  console.log("I am logger")
   // next();
 }
 
 function logger2(req, res, next) {
-  console.log('I am logger2'); // -> 출력되지 않음
-  next();
+  console.log("I am logger2") // -> 출력되지 않음
+  next()
 }
 
-app.use(logger);
-app.use(logger2);
+app.use(logger)
+app.use(logger2)
 
 app.listen(3000, () => {
-  console.log(`Example app listening at http://localhost:3000`);
-});
+  console.log(`Example app listening at http://localhost:3000`)
+})
 ```
 
 만약 위와 같이 `logger` 내부에서 `next()`를 호출하지 않는다면, 서버에 오청 시 서버 콘솔에는 `I am logger`만 출력되고, 이후의 함수는 무시된다.
@@ -254,25 +254,25 @@ app.listen(3000, () => {
 또한, 미들웨어는 `use()` 메서드를 통해 호출한 순서에 따라 실행된다. 따라서 아래와 같이 두 미들웨어의 호출 순서를 바꾼다면,
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
 function logger(req, res, next) {
-  console.log('I am logger');
-  next();
+  console.log("I am logger")
+  next()
 }
 
 function logger2(req, res, next) {
-  console.log('I am logger2');
-  next();
+  console.log("I am logger2")
+  next()
 }
 
-app.use(logger2);
-app.use(logger);
+app.use(logger2)
+app.use(logger)
 
 app.listen(3000, () => {
-  console.log(`Example app listening at http://localhost:3000`);
-});
+  console.log(`Example app listening at http://localhost:3000`)
+})
 ```
 
 서버 콘솔에는 `I am logger2`가 먼저 출력되고 이후에 `I am logger`가 출력되는 것을 확인할 수 있다.
@@ -284,25 +284,25 @@ app.listen(3000, () => {
 일반 미들웨어는 `req, res, next` 세 개의 파라미터를 받지만, 에러 미들웨어는 `err, req, res, next` 네 개의 파라미터를 받는다.
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
 function commonMiddleware(req, res, next) {
-  console.log('common middleware');
-  next(new Error('what the error!')); // <- 인위적으로 에러객체 전달
+  console.log("common middleware")
+  next(new Error("what the error!")) // <- 인위적으로 에러객체 전달
 }
 
 function errorMiddleware(err, req, res, next) {
-  console.log(err.message); // <- 전달 받은 에러객체의 메시지 출력 what the error!
-  next(); // <- 만약 에러가 처리되지 않으면 next에 err을 담아 다음으로 넘길 수 있음
+  console.log(err.message) // <- 전달 받은 에러객체의 메시지 출력 what the error!
+  next() // <- 만약 에러가 처리되지 않으면 next에 err을 담아 다음으로 넘길 수 있음
 }
 
-app.use(commonMiddleware);
-app.use(errorMiddleware);
+app.use(commonMiddleware)
+app.use(errorMiddleware)
 
 app.listen(3000, () => {
-  console.log(`Example app listening at http://localhost:3000`);
-});
+  console.log(`Example app listening at http://localhost:3000`)
+})
 ```
 
 위와 같이 일반 미들웨어에서 에러가 발생한 경우, 에러 미들웨어는 에러객체를 파라미터로 받아 처리하게 된다.
@@ -319,29 +319,29 @@ app.listen(3000, () => {
 ```javascript
 // without Express
 
-const http = require('http');
+const http = require("http")
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const hostname = "127.0.0.1"
+const port = 3000
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Node');
-  } else if (req.url === '/users') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('User List');
+  if (req.url === "/") {
+    res.statusCode = 200
+    res.setHeader("Content-Type", "text/plain")
+    res.end("Hello Node")
+  } else if (req.url === "/users") {
+    res.statusCode = 200
+    res.setHeader("Content-Type", "text/plain")
+    res.end("User List")
   } else {
-    res.statusCode = 404;
-    res.end('Not Found');
+    res.statusCode = 404
+    res.end("Not Found")
   }
-});
+})
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+  console.log(`Server running at http://${hostname}:${port}/`)
+})
 ```
 
 위와 같이 요청에 따른 조건들을 일일이 분기해줘야 하기 때문에 코드가 장황해지는 것이 불가피하다. 따라서 보다 간결하게 라우팅 처리를 하기 위해 Express.js를 활용한다. 정확하게는 Express.js의 어플리케이션 객체의 `get()`과 `post()` 등의 메서드다.
@@ -363,23 +363,23 @@ server.listen(port, hostname, () => {
 
 ```javascript
 // 1. express 모듈 가져옴
-const express = require('express');
+const express = require("express")
 
 // 2. express 객체를 생성하여 app 변수에 할당
-const app = express();
+const app = express()
 
 // 4. GET 요청 시의 라우팅 설정.
 // 첫 번째 파라미터로는 요청 경로, 두 번째 파라미터로는 실행할 콜백 함수
 // 콜백 함수의 파라미터로는 요청객체와 응답객체가 들어옴
-app.get('/', (req, res) => {
-  res.send('Hello World'); // -> Hello World 문자열을 클라이언트로 전송
-});
+app.get("/", (req, res) => {
+  res.send("Hello World") // -> Hello World 문자열을 클라이언트로 전송
+})
 
 // 3. listen 함수를 통해 서버를 구동.
 // 첫 번째 파라미터로는 포트 번호, 두 번째 파라미터로는 서버 구동 시 실행되는 콜백 함수
 app.listen(3000, () => {
-  console.log('server start');
-});
+  console.log("server start")
+})
 ```
 
 ## 요청 형식
@@ -396,16 +396,16 @@ app.listen(3000, () => {
 위의 메서드들은 모두 Express.js 어플리케이션의 메서드로 구현되어 있다.
 
 ```javascript
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
-app.get('/users', (req, res) => {
-  res.send('this is users list');
-});
+app.get("/users", (req, res) => {
+  res.send("this is users list")
+})
 
 app.listen(3000, () => {
-  console.log('server start');
-});
+  console.log("server start")
+})
 ```
 
 위와 같이 `/users` 요청에 대한 `get()` 라우팅이 존재할 때, `curl -X GET 'localhost:3000/users`를 통해 요청을 하면, `this is users list` 문자열이 응답으로 들어오는 것을 확인할 수 있다.
@@ -423,25 +423,25 @@ app.listen(3000, () => {
 `/users`를 경로로 갖고 `GET` 메서드를 통해 사용자 목록을 조회하는 API를 만들어보자.
 
 ```javascript
-const express = require('express');
-const app = express();
-const morgan = require('morgan');
+const express = require("express")
+const app = express()
+const morgan = require("morgan")
 
 const users = [
-  { id: 1, name: 'Tom' },
-  { id: 2, name: 'Jane' },
-  { id: 3, name: 'Mike' },
-];
+  { id: 1, name: "Tom" },
+  { id: 2, name: "Jane" },
+  { id: 3, name: "Mike" },
+]
 
-app.use(morgan('dev'));
+app.use(morgan("dev"))
 
-app.get('/users', (req, res) => {
-  res.json(users);
-});
+app.get("/users", (req, res) => {
+  res.json(users)
+})
 
 app.listen(3000, () => {
-  console.log('server start');
-});
+  console.log("server start")
+})
 ```
 
 위와 같이 users라는 mock data를 만들어 응답을 해주도록 설정하고 요청을 해보면 다음과 같이 users가 json 형태로 돌아오는 것을 확인할 수 있다.
