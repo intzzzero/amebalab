@@ -48,5 +48,39 @@ path: "/blog/operating-system-02"
 
 **참고:**
 
+- [셸 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%85%B8)
 - [시스템 호출 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%ED%98%B8%EC%B6%9C)
 - [POSIX - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/POSIX)
+
+### 사용자 모드와 커널 모드
+
+#### CPU Protection Rings
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Priv_rings.svg/1280px-Priv_rings.svg.png)
+
+- CPU는 권한 모드를 갖고 있음
+  1. 사용자 모드(user mode): 응용 프로그램이 사용
+  2. 커널 모드(kernel mode):
+  - 특권 명령어 실행과 원하는 작업 수행을 위한 자원 접근을 가능하게 하는 모드
+  - OS가 사용
+- 우리가 만드는 프로그램은 사용자 영역에서 존재함
+  ![](https://kwonsoonwoo.github.io/assets/Operating%20System/protectionring2.png)
+
+- 시스템콜은 커널모드로 실행
+  - 커널 모드에서만 실행 가능한 기능들이 있음
+  - 커널 모드로 실행하려면 반드시 시스템 콜을 사용해야 함
+  - 시스템 콜은 운영체제에서 제공
+- 권한에 따라 영역을 나눔으로써 응용 프로그램이 전체 컴퓨터 시스템에 악영향을 끼칠 가능성을 사전에 예방
+
+#### code example
+
+![](https://user-images.githubusercontent.com/40616436/75624981-f9db3380-5bfc-11ea-8d18-17bcea6482f4.png)
+
+#### 사용자 영역 -> 커널 영역 실행 도식도
+
+![](https://miro.medium.com/max/1091/1*t2-zohRaFxxqHFF-xDPOWA.png)
+
+**참고:**
+
+- [커널 (컴퓨팅) - 위키백과, 우리 모두의 백과사전](<https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85)>)
+- [보호 링 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EB%B3%B4%ED%98%B8_%EB%A7%81)
