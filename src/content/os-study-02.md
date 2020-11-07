@@ -61,8 +61,8 @@ path: "/blog/operating-system-02"
 - CPU는 권한 모드를 갖고 있음
   1. 사용자 모드(user mode): 응용 프로그램이 사용
   2. 커널 모드(kernel mode):
-  - 특권 명령어 실행과 원하는 작업 수행을 위한 자원 접근을 가능하게 하는 모드
-  - OS가 사용
+     - 특권 명령어 실행과 원하는 작업 수행을 위한 자원 접근을 가능하게 하는 모드
+     - OS가 사용
 - 우리가 만드는 프로그램은 사용자 영역에서 존재함
   ![](https://kwonsoonwoo.github.io/assets/Operating%20System/protectionring2.png)
 
