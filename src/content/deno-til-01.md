@@ -43,3 +43,51 @@ path: "/blog/deno-til-01"
 - 브라우저 호환성이 좋음
   - Node.js에서는 node-fetch 등의 모듈이 필요했으나 Deno에서는 필요 없음(브라우저API에 내장된 fetch를 사용함)
 - Node.js에서는 모듈을 가져올 때 `require`(commonJS)를 썼지만, Deno에서는 `export`, `import`(ES Modules) 문법 사용 가능
+
+## Deno의 사용
+
+- Deno는 Node.js와 달리 별도의 패키지매니저가 없기 때문에 바로 URL을 통한 라이브러리의 import가 가능하다.
+- [Deno datetime library](https://deno.land/std@0.83.0/datetime)
+
+```javascript
+import {
+  dayOfYear,
+  weekOfYear,
+} from "https://deno.land/std@0.69.0/datetime/mod.ts"
+
+console.log(dayOfYear(new Date("2021-01-10"))) // 10
+console.log(weekOfYear(new Date("2020-12-28"))) // 53
+```
+
+### permission
+
+- Deno의 라이브러리 중 chat이라는 게 있는데, 아래와 같이 터미널에서 바로 테스트가 가능하다.
+
+```zsh
+deno run https://deno.land/std@0.83.0/examples/chat/server.ts
+```
+
+그러면 여러 패키지를 다운받은 뒤에 아래와 같은 에러가 출력되는 것을 확인할 수 있다.
+
+```zsh
+chat server starting on :8080....
+error: Uncaught (in promise) PermissionDenied: network access to "0.0.0.0:8080", run again with the --allow-net flag
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpSync (deno:core/core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at serve (https://deno.land/std@0.83.0/http/server.ts:306:25)
+    at listenAndServe (https://deno.land/std@0.83.0/http/server.ts:326:18)
+    at https://deno.land/std@0.83.0/examples/chat/server.ts:34:1
+```
+
+이것은 앞서 얘기했던 network에 대한 권한 플래그를 설정하지 않았기 때문에 출력된 오류다. 아래와 같이 다시 실행해보자.
+
+```zsh
+deno run --allow-net https://deno.land/std@0.83.0/examples/chat/server.ts
+chat server starting on :8080....
+```
+
+그러면 권한이 설정되었기에 서버가 8080 포트에서 실행되는 것을 확인할 수 있다.
+
+![]()
