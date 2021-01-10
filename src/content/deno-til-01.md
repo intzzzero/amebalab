@@ -90,4 +90,4 @@ chat server starting on :8080....
 
 그러면 권한이 설정되었기에 서버가 8080 포트에서 실행되는 것을 확인할 수 있다.
 
-![]()
+![](https://github.com/codeAmeba/amebalab/blob/master/src/images/deno-chat.png?raw=true)
