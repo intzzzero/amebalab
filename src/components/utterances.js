@@ -1,23 +1,23 @@
-import React from "react";
+import React from "react"
 
 class Utterances extends React.Component {
   constructor(props) {
     super(props)
 
     this.commentsEl = React.createRef()
-    this.state = { state: 'pending' }
+    this.state = { state: "pending" }
   }
 
   componentDidMount() {
-    const scriptEl = document.createElement('script')
-    scriptEl.onload = () => this.setState({ status: 'success' })
-    scriptEl.onerror = () => this.setState({ status: 'failed' })
+    const scriptEl = document.createElement("script")
+    scriptEl.onload = () => this.setState({ status: "success" })
+    scriptEl.onerror = () => this.setState({ status: "failed" })
     scriptEl.async = true
-    scriptEl.src = 'https://utteranc.es/client.js'
-    scriptEl.setAttribute('repo', 'codeAmeba/blog-comments')
-    scriptEl.setAttribute('issue-term', 'title')
-    scriptEl.setAttribute('theme', 'github-light')
-    scriptEl.setAttribute('crossorigin', 'anonymous')
+    scriptEl.src = "https://utteranc.es/client.js"
+    scriptEl.setAttribute("repo", "intzzzero/blog-comments")
+    scriptEl.setAttribute("issue-term", "title")
+    scriptEl.setAttribute("theme", "github-light")
+    scriptEl.setAttribute("crossorigin", "anonymous")
     this.commentsEl.current.appendChild(scriptEl)
   }
 
@@ -26,8 +26,8 @@ class Utterances extends React.Component {
 
     return (
       <div className="comments-wrapper">
-        {status === 'failed' && <div>Error. Please try again.</div>}
-        {status === 'pending' && <div>Loading script...</div>}
+        {status === "failed" && <div>Error. Please try again.</div>}
+        {status === "pending" && <div>Loading script...</div>}
         <div ref={this.commentsEl} />
       </div>
     )

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `amebaLab`,
+    title: `intzzzero's blog`,
     subtitle: `Easy is boring, Minimal is lovely`,
     description: `주관적 생각과 객관적 정보의 아카이브`,
-    author: `codeAmeba`,
+    author: `intzzzero`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,22 +34,23 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-reading-time`, {
-          resolve: `gatsby-remark-prismjs`,
-          options: {
-            aliases:{sh: "bash", js:"javascript"},
-            showLineNumbers: true,
-          }
-        }],
+        plugins: [
+          `gatsby-remark-reading-time`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases: { sh: "bash", js: "javascript" },
+              showLineNumbers: true,
+            },
+          },
+        ],
       },
     },
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {
-          "/*": [
-            "Strict-Transport-Security: max-age=63072000"
-          ]
+          "/*": ["Strict-Transport-Security: max-age=63072000"],
         }, // option to add more headers. `Link` headers are transformed by the below criteria
         allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
         mergeSecurityHeaders: true, // boolean to turn off the default security headers

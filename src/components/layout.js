@@ -63,7 +63,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
@@ -71,8 +71,8 @@ const Layout = ({ children }) => (
           <FooterContainer>
             <Footer>
               <Copyright>
-              © {new Date().getFullYear()} codeAmeba, Built with
-              {` `}
+                © {new Date().getFullYear()} intzzzero, Built with
+                {` `}
               </Copyright>
               <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
             </Footer>
