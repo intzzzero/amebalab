@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Hello World!`,
-    subtitle: `Easy is boring, Minimal is lovely`,
+    title: `intzzzero`,
+    subtitle: `Archive of subjective thoughts and objective information`,
     description: `주관적 생각과 객관적 정보의 아카이브`,
     author: `intzzzero`,
   },
