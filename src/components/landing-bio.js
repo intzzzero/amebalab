@@ -6,6 +6,10 @@ import styled from "@emotion/styled"
 const Container = styled.div`
   text-align: center;
   transform: rotate(15deg);
+
+  a {
+    text-decoration: none;
+  }
 `
 
 const OuterContainer = styled.div`
