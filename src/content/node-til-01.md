@@ -10,7 +10,7 @@ path: "/blog/node-til-01"
 
 Node.js는 브라우저가 아닌 곳에서 JavaScript를 실행할 수 있도록 하는 실행환경(Runtime)이다. 이를 통해 클라이언트와 동일한 언어(JavaScript)로 서버를 실행할 수 있다.
 
-## Node는 기본적으로 비동기
+## Node는 이벤트 기반 비동기 I/O 프레임워크
 
 ```javascript
 const express = require("express")
