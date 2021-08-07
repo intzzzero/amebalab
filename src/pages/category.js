@@ -27,15 +27,30 @@ const MarkerHeader = styled.h3`
 `
 
 const PostTitle = styled.p`
-  margin-top: 0.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
   display: inline-block;
-  transition: 0.2s ease-in-out;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.8rem;
 
-  &:hover {
-    transition: 0.2s ease-in-out;
-    transition-delay: 0.2s;
-    background-color: rgba(220, 255, 0, 1);
-    color: rgba(28, 32, 34, 1);
+  ::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    padding-top: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(220, 255, 0, 0.8);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  :hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 `
 

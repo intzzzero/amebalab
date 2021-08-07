@@ -18,17 +18,31 @@ const ArticleDate = styled.h5`
 `
 
 const MarkerHeader = styled.h3`
-  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
   display: inline-block;
-  color: rgba(28, 32, 34, 1);
-  /* border-radius: 1em 0 1em 0; */
-  /* background-image: linear-gradient(
-		-100deg,
-		rgba(220, 255, 0, 0.15),
-		rgba(220, 255, 0, 0.8) 100%,
-		rgba(220, 255, 0, 0.25)
-	); */
-  background-color: rgba(220, 255, 0, 1);
+  position: relative;
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    padding-top: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(220, 255, 0, 0.8);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  :hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 `
 
 const ReadingTime = styled.h5`

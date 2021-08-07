@@ -2,7 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import profileImg from "../images/apple-profile.png"
+import profileImg from "../images/kakao_profile.jpeg"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -15,9 +15,18 @@ const Content = styled.div`
   flex-direction: column;
   color: rgba(255, 255, 255, 0.9);
 `
+const ImageWrapper = styled.div`
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 const ProfileImg = styled.img`
-  max-width: 250px;
+  width: 100%;
+  height: auto;
 `
 
 const TextWrapper = styled.div`
@@ -56,7 +65,9 @@ const IndexPage = () => {
     <Layout>
       <SEO title="About" />
       <Content>
-        <ProfileImg src={profileImg} />
+        <ImageWrapper>
+          <ProfileImg src={profileImg} />
+        </ImageWrapper>
         <TextWrapper>
           <h3>
             <i>주관적 생각과 객관적 정보의 아카이브</i>
