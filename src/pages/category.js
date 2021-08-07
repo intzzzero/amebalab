@@ -39,243 +39,52 @@ const PostTitle = styled.p`
   }
 `
 
+const categories = [
+  "book",
+  "think",
+  "JavaScript",
+  "CSS",
+  "HTML",
+  "React",
+  "Node",
+  "Database",
+  "TIP",
+  "Computer Science",
+  "Network",
+]
+
 const IndexPage = ({ data }) => {
-  console.log(data)
+  // console.log(data)
   return (
     <Layout>
-      <SEO title="Category" />
-      <Content>
-        <MarkerHeader>Book</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "book"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>Think</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "think"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>JavaScript</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "JavaScript"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>CSS</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "CSS"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>HTML</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "HTML"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>React</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "React"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>Node</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "Node"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>Database</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "Database"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>TIP</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "TIP"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>Computer Science</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "Computer Science"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-
-        <MarkerHeader>Network</MarkerHeader>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            return node.frontmatter.category === "Network"
-          })
-          .map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                  <PostTitle>{node.frontmatter.title}</PostTitle>
-                </Link>
-              </div>
-            )
-          })}
-      </Content>
+      {categories.map((category) => {
+        return (
+          <div key={categories.indexOf(category)}>
+            <SEO title="Category" />
+            <Content>
+              <MarkerHeader>{category}</MarkerHeader>
+              {data.allMarkdownRemark.edges
+                .filter(({ node }) => {
+                  return node.frontmatter.category === category
+                })
+                .map(({ node }) => {
+                  return (
+                    <div key={node.id}>
+                      <Link
+                        to={node.frontmatter.path}
+                        css={css`
+                          color: inherit;
+                        `}
+                      >
+                        <PostTitle>{node.frontmatter.title}</PostTitle>
+                      </Link>
+                    </div>
+                  )
+                })}
+            </Content>
+          </div>
+        )
+      })}
     </Layout>
   )
 }

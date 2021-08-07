@@ -1,19 +1,19 @@
-import { Link } from 'gatsby';
-import styled from '@emotion/styled';
-import PropTypes from 'prop-types';
-import React from 'react';
+import { Link } from "gatsby"
+import styled from "@emotion/styled"
+import PropTypes from "prop-types"
+import React from "react"
 
 const Content = styled.div`
-	padding: 1rem 1.0875rem;
-	font-size: 1rem;
-	position: fixed;
-	z-index: 100;
-	width: 100vw;
-	background-color: rgba(28, 32, 34, 0.7);
-	display: flex;
-	align-content: center;
-	justify-content: center;
-`;
+  padding: 1rem 1.0875rem;
+  font-size: 1rem;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  background-color: rgba(28, 32, 34, 0.7);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+`
 
 const NavLink = styled(Link)`
   color: rgba(255, 255, 255, 0.9);
@@ -22,7 +22,6 @@ const NavLink = styled(Link)`
   display: inline-block;
   position: relative;
   font-size: 1rem;
-
 
   ::after {
     content: "";
@@ -42,40 +41,39 @@ const NavLink = styled(Link)`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-`;
+`
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
   font-size: 1rem;
-`;
+`
 
 const SiteHeader = styled.header`
-	background: transparent;
-	height: 50px;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-`;
+  background: transparent;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+`
 
 const Header = ({ siteTitle }) => (
-	<SiteHeader>
-		<Content>
-			<p>
-				<HomeLink to='/'>{siteTitle}</HomeLink>
-				<NavLink to='/blog'>Blog</NavLink>
-				<NavLink to='/category'>Category</NavLink>
-				<NavLink to='/about'>About</NavLink>
-			</p>
-		</Content>
-	</SiteHeader>
-);
+  <SiteHeader>
+    <Content>
+      <p>
+        <HomeLink to="/">{siteTitle}</HomeLink>
+        <NavLink to="/category">Category</NavLink>
+        <NavLink to="/about">About</NavLink>
+      </p>
+    </Content>
+  </SiteHeader>
+)
 
 Header.propTypes = {
-	siteTitle: PropTypes.string
-};
+  siteTitle: PropTypes.string,
+}
 
 Header.defaultProps = {
-	siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default Header;
+export default Header
