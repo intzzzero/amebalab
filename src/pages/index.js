@@ -82,7 +82,7 @@ const IndexPage = ({ data }) => {
                   <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
                   {node.frontmatter.date !== node.frontmatter.update && (
                     <UpdateText>
-                      {"💡 updated in " + node.frontmatter.update}
+                      {"💡 modified in " + node.frontmatter.update}
                     </UpdateText>
                   )}
                 </div>
