@@ -45,8 +45,7 @@ const MarkerHeader = styled.h3`
   }
 `
 
-const UpdateText = styled.span`
-  margin-left: 0.5rem;
+const UpdateText = styled.div`
   font-size: 0.7rem;
   font-weight: 400;
   color: rgba(220, 255, 0, 0.8);
@@ -78,12 +77,14 @@ const IndexPage = ({ data }) => {
                 `}
               >
                 <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
-                {node.frontmatter.date !== node.frontmatter.update && (
-                  <UpdateText>updated in {node.frontmatter.update}</UpdateText>
-                )}
                 <div>
                   <ArticleDate>{node.frontmatter.date}</ArticleDate>
                   <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  {node.frontmatter.date !== node.frontmatter.update && (
+                    <UpdateText>
+                      {"💡 updated in " + node.frontmatter.update}
+                    </UpdateText>
+                  )}
                 </div>
                 <p>{node.excerpt}</p>
               </Link>
