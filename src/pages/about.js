@@ -24,6 +24,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   border: 3px solid rgba(80, 80, 80, 1);
   border-radius: 50%;
+  margin-bottom: 2rem;
 `
 
 const ProfileImg = styled.img`
