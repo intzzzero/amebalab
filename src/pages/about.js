@@ -16,15 +16,16 @@ const Content = styled.div`
   color: rgba(255, 255, 255, 0.9);
 `
 const ImageWrapper = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid rgba(80, 80, 80, 1);
+  border: 2px solid rgba(80, 80, 80, 0.8);
   border-radius: 50%;
   margin-bottom: 2rem;
+  padding-top: 1.5rem;
 `
 
 const ProfileImg = styled.img`
@@ -69,7 +70,7 @@ const IndexPage = () => {
       <SEO title="About" />
       <Content>
         <ImageWrapper>
-          <ProfileImg src={profileImg} />
+          <ProfileImg src="https://avatars.githubusercontent.com/u/48628740?v=4" />
         </ImageWrapper>
         <TextWrapper>
           <h3>
