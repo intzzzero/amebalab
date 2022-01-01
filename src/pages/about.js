@@ -134,15 +134,6 @@ const IndexPage = () => {
           <a href="mailto:intzzzero@gmail.com" target="_blank">
             Email
           </a>
-          <a
-            href="https://intzzzero.github.io/front-end-practice/"
-            target="_blank"
-          >
-            Practice
-          </a>
-          <a href="https://intzzzero.github.io/portfolio/" target="_blank">
-            Portfolio
-          </a>
           <a href="https://intzzzero.myportfolio.com/" target="_blank">
             Photography
           </a>
