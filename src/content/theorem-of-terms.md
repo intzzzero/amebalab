@@ -3,7 +3,7 @@ title: "용어정리"
 date: "2021-04-07"
 update: "2022-01-01"
 draft: false
-category: "think"
+category: "TIP"
 path: "/blog/theorem-of-terms"
 ---
 
