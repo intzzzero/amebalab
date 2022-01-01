@@ -1,6 +1,7 @@
 ---
 title: "좋은 URI(Uniform Resource Identifier) 설계"
 date: "2021-05-28"
+update: "2021-05-28"
 draft: false
 category: "Network"
 path: "/blog/what-is-good-uri"

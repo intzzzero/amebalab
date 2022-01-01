@@ -1,6 +1,7 @@
 ---
 title: "프로토타입을 임의로 수정하면 안 되는 이유"
 date: "2020-07-06"
+update: "2020-07-06"
 draft: false
 category: "JavaScript"
 path: "/blog/do-not-modify-prototype"

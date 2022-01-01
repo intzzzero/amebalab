@@ -1,6 +1,7 @@
 ---
 title: "React-router-dom에서 Link 태그를 사용하는 법"
 date: "2020-08-08"
+update: "2020-08-08"
 draft: false
 category: "React"
 path: "/blog/how-to-use-link-tag"

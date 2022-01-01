@@ -1,6 +1,7 @@
 ---
 title: "Database TIL 01"
 date: "2020-09-03"
+update: "2020-09-03"
 draft: false
 category: "Database"
 path: "/blog/database-til-01"

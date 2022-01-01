@@ -1,6 +1,7 @@
 ---
 title: "Node.js TIL 01"
 date: "2020-08-25"
+update: "2020-08-25"
 draft: false
 category: "Node"
 path: "/blog/node-til-01"

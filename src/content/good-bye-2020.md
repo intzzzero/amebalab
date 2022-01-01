@@ -1,6 +1,7 @@
 ---
 title: "2020년 회고"
 date: "2020-12-31"
+update: "2020-12-31"
 draft: false
 category: "think"
 path: "/blog/good-bye-2020"

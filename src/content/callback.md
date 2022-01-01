@@ -1,6 +1,7 @@
 ---
 title: "필요할 때 부르는 함수, 콜백(Callback)"
 date: "2020-07-23"
+update: "2020-07-23"
 draft: false
 category: "JavaScript"
 path: "/blog/callback"

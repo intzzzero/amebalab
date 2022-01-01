@@ -1,6 +1,7 @@
 ---
 title: "React TIL 03"
 date: "2020-06-07"
+update: "2020-06-07"
 draft: false
 category: "React"
 path: "/blog/react-til-03"

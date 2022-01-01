@@ -1,6 +1,7 @@
 ---
 title: "CRA에서 TypeScript와 Unit Test를 위한 초기 설정"
 date: "2020-07-23"
+update: "2020-07-23"
 draft: false
 category: "React"
 path: "/blog/cra-typescript-unittest-start-setting"

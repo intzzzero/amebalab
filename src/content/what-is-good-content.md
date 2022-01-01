@@ -1,6 +1,7 @@
 ---
 title: "내가 생각하는 좋은 콘텐츠"
 date: "2020-07-01"
+update: "2020-07-01"
 draft: false
 category: "think"
 path: "/blog/what-is-good-content"

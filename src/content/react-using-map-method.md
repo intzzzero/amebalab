@@ -1,6 +1,7 @@
 ---
 title: "리액트에서의 map()의 활용"
 date: "2020-06-17"
+update: "2020-06-17"
 draft: false
 category: "React"
 path: "/blog/react-using-map-method"

@@ -1,6 +1,7 @@
 ---
 title: 웹 사이트의 구조와 웹 접근성
 date: "2020-05-30"
+update: "2020-05-30"
 draft: false
 category: "HTML"
 path: "/blog/web-structure"

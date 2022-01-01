@@ -1,6 +1,7 @@
 ---
 title: "로컬 스토리지(Local Storage)와 세션 스토리지(Session Storage)"
 date: "2020-05-28"
+update: "2020-05-28"
 draft: false
 category: "JavaScript"
 path: "/blog/localstorage-and-sessionstorage"

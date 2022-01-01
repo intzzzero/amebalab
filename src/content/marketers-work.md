@@ -1,6 +1,7 @@
 ---
 title: "마케터의 일"
 date: "2020-06-30"
+update: "2020-06-30"
 draft: false
 category: "book"
 path: "/blog/marketers-work"

@@ -1,6 +1,7 @@
 ---
 title: "객체(object)를 생성하는 다양한 방법"
 date: "2020-06-25"
+update: "2020-06-25"
 draft: false
 category: "JavaScript"
 path: "/blog/how-to-make-object"

@@ -1,6 +1,7 @@
 ---
 title: "오류의 이해"
 date: "2020-07-05"
+update: "2020-07-05"
 draft: false
 category: "think"
 path: "/blog/understanding-error"

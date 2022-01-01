@@ -1,6 +1,7 @@
 ---
 title: "문자열 메소드의 활용"
 date: "2020-06-19"
+update: "2020-06-19"
 draft: false
 category: "JavaScript"
 path: "/blog/string-method"

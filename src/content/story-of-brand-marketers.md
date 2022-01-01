@@ -1,6 +1,7 @@
 ---
 title: "브랜드 마케터들의 이야기"
 date: "2020-09-23"
+update: "2020-09-23"
 draft: false
 category: "book"
 path: "/blog/story-of-brand-marketers"

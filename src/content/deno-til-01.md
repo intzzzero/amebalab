@@ -1,6 +1,7 @@
 ---
 title: "Deno TIL 01"
 date: "2021-01-10"
+update: "2021-01-10"
 draft: false
 category: "Node"
 path: "/blog/deno-til-01"

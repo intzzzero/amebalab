@@ -1,6 +1,7 @@
 ---
 title: "Market 4.0"
 date: "2020-06-29"
+update: "2020-06-29"
 draft: false
 category: "book"
 path: "/blog/market-40"

@@ -1,6 +1,7 @@
 ---
 title: "프로그래머의 길, 멘토에게 묻다(Apprenticeship Patterns)"
 date: "2020-06-21"
+update: "2020-06-21"
 draft: false
 category: "book"
 path: "/blog/apprenticeship-patterns"

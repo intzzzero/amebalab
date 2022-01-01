@@ -1,6 +1,7 @@
 ---
 title: "비동기적 실행이 필요한 이유"
 date: "2020-06-18"
+update: "2020-06-18"
 draft: false
 category: "JavaScript"
 path: "/blog/why-using-async"

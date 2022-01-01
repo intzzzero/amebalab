@@ -1,6 +1,7 @@
 ---
 title: "Jest로 단위 테스트(Unit Test) 시작하기"
 date: "2020-07-13"
+update: "2020-07-13"
 draft: false
 category: "JavaScript"
 path: "/blog/tdd-with-jest"

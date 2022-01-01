@@ -1,6 +1,7 @@
 ---
 title: "알아두면 정신건강에 이로운 Emmet"
 date: "2020-06-19"
+update: "2021-12-20"
 draft: false
 category: "TIP"
 path: "/blog/emmet"

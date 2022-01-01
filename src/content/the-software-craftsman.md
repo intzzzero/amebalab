@@ -1,6 +1,7 @@
 ---
 title: "소프트웨어 장인(The Software Craftsman)"
 date: "2020-12-21"
+update: "2020-12-21"
 draft: false
 category: "book"
 path: "/blog/the-software-craftsman"

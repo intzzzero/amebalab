@@ -1,6 +1,7 @@
 ---
 title: "스코프(Scope)는 취조실 거울처럼 단방향"
 date: "2020-07-17"
+update: "2020-07-17"
 draft: false
 category: "JavaScript"
 path: "/blog/what-is-scope"

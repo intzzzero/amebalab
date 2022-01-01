@@ -1,6 +1,7 @@
 ---
 title: "우아한 테크 러닝 3기 1회차(200901)"
 date: "2020-09-05"
+update: "2020-09-05"
 draft: false
 category: "React"
 path: "/blog/wootech-1st-lecture"

@@ -1,6 +1,7 @@
 ---
 title: "화살표 함수(arrow function)의 특징과 주의사항"
 date: "2020-06-18"
+update: "2020-06-18"
 draft: false
 category: "JavaScript"
 path: "/blog/arrow-function"

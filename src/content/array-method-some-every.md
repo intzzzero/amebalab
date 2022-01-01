@@ -1,6 +1,7 @@
 ---
 title: "자주 쓰지 않지만 알면 유용한 배열 메서드"
 date: "2020-05-20"
+update: "2020-05-20"
 draft: false
 category: "JavaScript"
 path: "/blog/array-method-some-every"

@@ -1,6 +1,7 @@
 ---
 title: 유용한 크롬 확장 프로그램(Chrome Extension) 추천
 date: "2020-06-10"
+update: "2020-06-10"
 draft: false
 category: "TIP"
 path: "/blog/chrome-extensions"

@@ -1,6 +1,7 @@
 ---
 title: "조건문의 조건"
 date: "2020-05-29"
+update: "2020-05-29"
 draft: false
 category: "JavaScript"
 path: "/blog/boolean-statement"

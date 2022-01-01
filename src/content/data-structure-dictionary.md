@@ -1,6 +1,7 @@
 ---
 title: "Data Structure - Dictionary"
 date: "2020-06-15"
+update: "2020-06-15"
 draft: false
 category: "Computer Science"
 path: "/blog/data-structure-dictionary"

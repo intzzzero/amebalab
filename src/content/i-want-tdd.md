@@ -1,6 +1,7 @@
 ---
 title: "React에서 유닛테스트(unit test)를 하고 싶었던 나는"
 date: "2020-07-30"
+update: "2020-07-30"
 draft: false
 category: "React"
 path: "/blog/i-want-tdd"

@@ -1,6 +1,7 @@
 ---
 title: "위코드 2차 프로젝트(카트라이더 TMI 클론) 후기"
 date: "2020-07-20"
+update: "2020-07-20"
 draft: false
 category: "think"
 path: "/blog/after-second-project-with-wecode"

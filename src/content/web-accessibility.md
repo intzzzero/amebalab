@@ -1,6 +1,7 @@
 ---
 title: "웹 접근성과 웹의 본질"
 date: "2020-05-29"
+update: "2020-05-29"
 draft: false
 category: "HTML"
 path: "/blog/web-accessibility"

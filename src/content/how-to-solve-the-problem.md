@@ -1,6 +1,7 @@
 ---
 title: "문제를 푸는 법 - 리처드 파인만 -"
 date: "2021-03-10"
+update: "2021-03-10"
 draft: false
 category: "think"
 path: "/blog/how-to-solve-the-problem"

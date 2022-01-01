@@ -1,6 +1,7 @@
 ---
 title: "JSX와 Component"
 date: "2020-06-14"
+update: "2020-06-14"
 draft: false
 category: "React"
 path: "/blog/react-jsx-and-component"

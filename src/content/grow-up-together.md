@@ -1,6 +1,7 @@
 ---
 title: "함께 자라기 - 애자일로 가는 길"
 date: "2020-12-20"
+update: "2020-12-20"
 draft: false
 category: "book"
 path: "/blog/grow-up-together"

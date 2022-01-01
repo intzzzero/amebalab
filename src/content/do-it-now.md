@@ -1,6 +1,7 @@
 ---
 title: "불안의 이유"
 date: "2020-07-07"
+update: "2020-07-07"
 draft: false
 category: "think"
 path: "/blog/diary-02"

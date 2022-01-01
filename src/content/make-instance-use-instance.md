@@ -1,6 +1,7 @@
 ---
 title: "인스턴스로 인스턴스 만들기"
 date: "2020-07-22"
+update: "2020-07-22"
 draft: false
 category: "JavaScript"
 path: "/blog/make-instance-use-instance"

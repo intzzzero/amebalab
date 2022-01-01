@@ -1,6 +1,7 @@
 ---
 title: "웹의 작동 방식"
 date: "2020-06-05"
+update: "2020-06-05"
 draft: false
 category: "Network"
 path: "/blog/web-process"

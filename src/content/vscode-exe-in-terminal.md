@@ -1,6 +1,7 @@
 ---
 title: "터미널에서 바로 VSCode 실행하는 방법"
 date: "2020-06-16"
+update: "2020-06-16"
 draft: false
 category: "TIP"
 path: "/blog/vscode-exe-in-terminal"

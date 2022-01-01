@@ -1,6 +1,7 @@
 ---
 title: "함수 선언문의 호이스팅"
 date: "2020-07-14"
+update: "2020-07-14"
 draft: false
 category: "JavaScript"
 path: "/blog/hoisting-of-function"

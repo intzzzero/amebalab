@@ -1,6 +1,7 @@
 ---
 title: "실행 컨텍스트를 알면 실행 순서가 보인다"
 date: "2020-07-24"
+update: "2020-07-24"
 draft: false
 category: "JavaScript"
 path: "/blog/execution-context"

@@ -1,6 +1,7 @@
 ---
 title: "취업 후 한 달째에 써보는 회고"
 date: "2020-09-22"
+update: "2020-09-22"
 draft: false
 category: "think"
 path: "/blog/after-first-month"

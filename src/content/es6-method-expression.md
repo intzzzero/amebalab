@@ -1,6 +1,7 @@
 ---
 title: "메서드(method)의 약식 표현과 한계"
 date: "2020-07-13"
+update: "2020-07-13"
 draft: false
 category: "JavaScript"
 path: "/blog/es6-method-expression"

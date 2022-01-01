@@ -1,6 +1,7 @@
 ---
 title: "CS Study 06"
 date: "2020-06-21"
+update: "2020-06-21"
 draft: false
 category: "Computer Science"
 path: "/blog/computer-science-06"

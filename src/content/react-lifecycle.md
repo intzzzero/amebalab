@@ -1,6 +1,7 @@
 ---
 title: "컴포넌트의 생명주기(Lifecycle)"
 date: "2020-06-16"
+update: "2020-06-16"
 draft: false
 category: "React"
 path: "/blog/react-lifecycle"

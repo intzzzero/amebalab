@@ -1,6 +1,7 @@
 ---
 title: "위코드 1차 프로젝트(샤넬 클론) 후기"
 date: "2020-07-04"
+update: "2020-07-04"
 draft: false
 category: "think"
 path: "/blog/after-first-project-with-wecode"

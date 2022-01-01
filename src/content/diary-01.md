@@ -1,6 +1,7 @@
 ---
 title: "왜 개발자가 되려 하느냐 묻거든 멋있어서라고 답한다"
 date: "2020-07-03"
+update: "2020-07-03"
 draft: false
 category: "think"
 path: "/blog/diary-01"

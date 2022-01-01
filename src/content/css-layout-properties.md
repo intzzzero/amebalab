@@ -1,6 +1,7 @@
 ---
 title: "CSS 레이아웃의 기본 display, position, float"
 date: "2020-05-26"
+update: "2020-05-26"
 draft: false
 category: "CSS"
 path: "/blog/layout-properties"

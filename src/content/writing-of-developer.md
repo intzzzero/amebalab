@@ -1,6 +1,7 @@
 ---
 title: "개발자의 글쓰기"
 date: "2020-07-11"
+update: "2020-07-11"
 draft: false
 category: "book"
 path: "/blog/writing-of-developer"

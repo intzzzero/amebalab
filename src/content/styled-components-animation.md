@@ -1,6 +1,7 @@
 ---
 title: "Styled components에서 keyframe 사용하는 법"
 date: "2020-07-08"
+update: "2020-07-08"
 draft: false
 category: "React"
 path: "/blog/styled-components-animation"

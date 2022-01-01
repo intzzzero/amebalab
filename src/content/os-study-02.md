@@ -1,6 +1,7 @@
 ---
 title: "OS Study 02"
 date: "2020-11-03"
+update: "2020-11-03"
 draft: false
 category: "Computer Science"
 path: "/blog/operating-system-02"

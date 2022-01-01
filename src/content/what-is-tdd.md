@@ -1,6 +1,7 @@
 ---
 title: "TDD 선행지식"
 date: "2020-07-12"
+update: "2020-07-12"
 draft: false
 category: "JavaScript"
 path: "/blog/what-is-tdd"

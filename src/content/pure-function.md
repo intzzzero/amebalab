@@ -1,6 +1,7 @@
 ---
 title: "순수 함수(Pure Function)의 조건"
 date: "2020-07-26"
+update: "2020-07-26"
 draft: false
 category: "JavaScript"
 path: "/blog/pure-function"

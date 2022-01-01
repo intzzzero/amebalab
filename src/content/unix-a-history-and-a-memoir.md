@@ -1,6 +1,7 @@
 ---
 title: "유닉스의 탄생(UNIX: A history and a memoir)"
 date: "2020-08-01"
+update: "2020-08-01"
 draft: false
 category: "book"
 path: "/blog/unix-a-history-and-a-memoir"

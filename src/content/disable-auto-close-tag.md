@@ -1,6 +1,7 @@
 ---
 title: "[TS] 제네릭에서 태그를 왜 닫아"
 date: "2021-03-29"
+update: "2021-03-29"
 draft: false
 category: "JavaScript"
 path: "/blog/disable-auto-close-tag"

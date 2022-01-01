@@ -1,6 +1,7 @@
 ---
 title: "스코프 체인(scope chain)"
 date: "2020-06-17"
+update: "2020-06-17"
 draft: false
 category: "JavaScript"
 path: "/blog/scope-chain"
