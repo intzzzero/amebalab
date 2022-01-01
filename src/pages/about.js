@@ -2,7 +2,6 @@ import React from "react"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import profileImg from "../images/kakao_profile.jpeg"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -102,12 +101,9 @@ const IndexPage = () => {
             <i>주관적 생각과 객관적 정보의 아카이브</i>
           </h3>
           <p>
-            안녕하세요, 웹 개발자 정수영입니다.
+            안녕하세요, 웹 개발자 INTZERO입니다.
             <br />
-            이름에서 착안한 'INT 0(zero)'를 닉네임으로 사용하고 있습니다.
-            <br />
-            삶에서도 코드에서도 통제할 수 없는 변수를 최소화하는 것에 관심이
-            많습니다.
+            삶에서도 코드에서도 통제할 수 없는 변수의 최소화를 지향합니다.
             <br />
             현재는
             <a href="https://apps.apple.com/app/id1483177281" target="_blank">
