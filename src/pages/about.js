@@ -6,7 +6,6 @@ import profileImg from "../images/kakao_profile.jpeg"
 
 const Content = styled.div`
   margin: 0 auto;
-  height: 80vh;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
   display: flex;
@@ -24,6 +23,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   border: 2px solid rgba(80, 80, 80, 0.8);
   border-radius: 50%;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   padding-top: 1.5rem;
 `
@@ -34,8 +34,33 @@ const ProfileImg = styled.img`
 `
 
 const TextWrapper = styled.div`
+  max-width: 440px;
   h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  a {
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+    color: rgba(255, 255, 255, 0.9);
+
+    background-image: linear-gradient(
+      rgba(220, 255, 0, 0.8),
+      rgba(220, 255, 0, 0.8)
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 100%;
+      color: rgba(28, 32, 34, 1);
+    }
   }
 `
 
@@ -76,6 +101,28 @@ const IndexPage = () => {
           <h3>
             <i>주관적 생각과 객관적 정보의 아카이브</i>
           </h3>
+          <p>
+            안녕하세요, 웹 개발자 정수영입니다.
+            <br />
+            이름에서 착안한 'INT 0(zero)'를 닉네임으로 사용하고 있습니다.
+            <br />
+            삶에서도 코드에서도 통제할 수 없는 변수를 최소화하는 것에 관심이
+            많습니다.
+            <br />
+            현재는
+            <a href="https://apps.apple.com/app/id1483177281" target="_blank">
+              '펫프라이스'
+            </a>
+            라는 스타트업에서 동명의 서비스를 만들고 알리는 중이며, 최근 사이드
+            프로젝트로 WebRTC 기반의
+            <a
+              href="https://apps.apple.com/kr/app/id1592413495"
+              target="_blank"
+            >
+              '코디톡'
+            </a>
+            이라는 서비스를 만들어 출시하였습니다.
+          </p>
         </TextWrapper>
         <SnsLinks>
           <a href="https://github.com/intzzzero" target="_blank">
@@ -95,6 +142,9 @@ const IndexPage = () => {
           </a>
           <a href="https://intzzzero.github.io/portfolio/" target="_blank">
             Portfolio
+          </a>
+          <a href="https://intzzzero.myportfolio.com/" target="_blank">
+            Photography
           </a>
         </SnsLinks>
       </Content>
