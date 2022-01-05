@@ -101,23 +101,7 @@ const IndexPage = () => {
             <i>주관적 생각과 객관적 정보의 아카이브</i>
           </h3>
           <p>
-            안녕하세요, 웹 개발자 INTZERO입니다.
-            <br />
-            삶에서도 코드에서도 통제할 수 없는 변수의 최소화를 지향합니다.
-            <br />
-            현재는
-            <a href="https://apps.apple.com/app/id1483177281" target="_blank">
-              '펫프라이스'
-            </a>
-            라는 스타트업에서 동명의 서비스를 만들고 알리는 중이며, 최근 사이드
-            프로젝트로 WebRTC 기반의
-            <a
-              href="https://apps.apple.com/kr/app/id1592413495"
-              target="_blank"
-            >
-              '코디톡'
-            </a>
-            이라는 서비스를 만들어 출시하였습니다.
+            안녕하세요, 삶에서도 코드에서도 통제할 수 없는 변수의 최소화를 지향하는 웹 개발자 INTZERO입니다.
           </p>
         </TextWrapper>
         <SnsLinks>
