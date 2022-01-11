@@ -1,7 +1,7 @@
 ---
 title: "용어정리"
 date: "2021-04-07"
-update: "2022-01-05"
+update: "2022-01-11"
 draft: false
 category: "TIP"
 path: "/blog/theorem-of-terms"
@@ -25,6 +25,10 @@ AWS S3는 Simple Storage Service의 준말이다.
 
 
 ## NAT(Network Address Translation)
+네트워크 주소 변환은 IP 패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP주소 등을 재기록 하며 라우터를 통해 네트워크 트래픽을 주고 받는 기술을 말한다. NAT를 사용하는 이유는 대개 사설 네트워크에 속한 여러 호스트가 하나의 공인 IP 주소를 사용하여 인터넷에 접속하기 위함이다.
+
+## WebRTC(Web Real-Time Communication)
+웹 애플리케이션과 사이트가 중간자 없이 브라우저 간에 오디오나 영상 미디어를 포착하고 마음대로 스트림할 뿐만 아니라, 임의의 데이터도 교환할 수 있도록 하는 기술이다.
 
 ## 서브넷마스크(Subnet Mask)
 
@@ -33,7 +37,7 @@ CI(Continuous Integration: 지속적 통합)
 CD(Continuous Delivery & Continuous Deployment)
 
 ## 버퍼(buffer)
-속도차가 큰 두 대상이 입출력을 수행할 때 효율성을 위해 사용하는 임시 저장공간 
+속도차가 큰 두 대상이 입출력을 수행할 때 효율성을 위해 사용하는 임시 저장공간
 
 ## 대역폭
 ## 레이턴시
