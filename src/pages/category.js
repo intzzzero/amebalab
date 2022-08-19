@@ -62,6 +62,7 @@ const categories = [
   "HTML",
   "React",
   "Node",
+  "Python",
   "Database",
   "TIP",
   "Computer Science",
