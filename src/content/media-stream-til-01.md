@@ -11,9 +11,9 @@ path: "/blog/media-stream-til-01"
 
 #### 참조
 
-    - [자습서: S3 Batch Operations, AWS Lambda 및 AWS Elemental MediaConvert를 통해 비디오 일괄 트랜스코딩 - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/tutorial-s3-batchops-lambda-mediaconvert-video.html)
-    - [CloudFront를 사용한 온디맨드 비디오(VOD) 제공 - Amazon CloudFront](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/on-demand-video.html)
-    - [자습서: Amazon S3, Amazon CloudFront 및 Amazon Route 53로 온디맨드 스트리밍 비디오 호스팅 - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/tutorial-s3-cloudfront-route53-video-streaming.html)
+- [자습서: S3 Batch Operations, AWS Lambda 및 AWS Elemental MediaConvert를 통해 비디오 일괄 트랜스코딩 - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/tutorial-s3-batchops-lambda-mediaconvert-video.html)
+- [CloudFront를 사용한 온디맨드 비디오(VOD) 제공 - Amazon CloudFront](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/on-demand-video.html)
+- [자습서: Amazon S3, Amazon CloudFront 및 Amazon Route 53로 온디맨드 스트리밍 비디오 호스팅 - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/tutorial-s3-cloudfront-route53-video-streaming.html)
 
 ---
 
@@ -29,8 +29,8 @@ path: "/blog/media-stream-til-01"
 
 #### 참조
 
-    - [Amazon S3란 무엇인가요? - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/Welcome.html)
-    - [Amazon S3 기능 - Amazon Web Services](https://aws.amazon.com/ko/s3/features/)
+- [Amazon S3란 무엇인가요? - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/Welcome.html)
+- [Amazon S3 기능 - Amazon Web Services](https://aws.amazon.com/ko/s3/features/)
 
 ---
 
@@ -46,8 +46,8 @@ path: "/blog/media-stream-til-01"
 
 #### 참조
 
-    - [CDN이란 무엇인가요? - CDN 설명 - AWS](https://aws.amazon.com/ko/what-is/cdn/)
-    - [Caching - Content Distribution Network (CDN)](https://aws.amazon.com/ko/caching/cdn/?nc1=h_ls)
+- [CDN이란 무엇인가요? - CDN 설명 - AWS](https://aws.amazon.com/ko/what-is/cdn/)
+- [Caching - Content Distribution Network (CDN)](https://aws.amazon.com/ko/caching/cdn/?nc1=h_ls)
 
 ---
 
@@ -58,12 +58,12 @@ CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 
 
 ![CloudFront process](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/images/how-cloudfront-delivers-content.png)
 
-> 1. 사용자가 웹 사이트 또는 애플리케이션에 액세스하고 이미지 파일 및 HTML 파일 같은 하나 이상의 객체에 대한 요청을 보냅니다.
-> 2. DNS가 요청을 최적으로 서비스할 수 있는 CloudFront POP(엣지 로케이션)로 요청을 라우팅합니다. 이 위치는 일반적으로 지연 시간과 관련해 가장 가까운 CloudFront POP이며, 요청을 엣지 로케이션으로 라우팅합니다.
-> 3. CloudFront는 해당 캐시에 요청된 객체가 있는지 확인합니다. 객체가 캐시에 있으면 CloudFront는 객체를 사용자에게 반환합니다. 객체가 캐시에 없으면 CloudFront가 다음을 수행합니다.
->    a. CloudFront는 배포의 사양과 요청을 비교하고 요청을 해당하는 객체로 사용자의 원본 서버(예: Amazon S3 버킷 또는 HTTP 서버)에 전달합니다.
->    b. 원본 서버는 객체를 다시 엣지 로케이션으로 보냅니다.
->    c. 오리진에서 첫 번째 바이트가 도착하면 CloudFront가 객체를 사용자에게 전달하기 시작합니다. CloudFront는 다음에 다른 사용자가 객체를 요청할 때 캐시에 해당 객체를 추가합니다.
+>1. 사용자가 웹 사이트 또는 애플리케이션에 액세스하고 이미지 파일 및 HTML 파일 같은 하나 이상의 객체에 대한 요청을 보냅니다.
+>2. DNS가 요청을 최적으로 서비스할 수 있는 CloudFront POP(엣지 로케이션)로 요청을 라우팅합니다. 이 위치는 일반적으로 지연 시간과 관련해 가장 가까운 CloudFront POP이며, 요청을 엣지 로케이션으로 라우팅합니다.
+>3. CloudFront는 해당 캐시에 요청된 객체가 있는지 확인합니다. 객체가 캐시에 있으면 CloudFront는 객체를 사용자에게 반환합니다. 객체가 캐시에 없으면 CloudFront가 다음을 수행합니다.
+>____a. CloudFront는 배포의 사양과 요청을 비교하고 요청을 해당하는 객체로 사용자의 원본 서버(예: Amazon S3 버킷 또는 HTTP 서버)에 전달합니다.
+>____b. 원본 서버는 객체를 다시 엣지 로케이션으로 보냅니다.
+>____c. 오리진에서 첫 번째 바이트가 도착하면 CloudFront가 객체를 사용자에게 전달하기 시작합니다. CloudFront는 다음에 다른 사용자가 객체를 요청할 때 캐시에 해당 객체를 추가합니다.
 
 #### 이용
 
@@ -71,7 +71,7 @@ CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 
 
 #### 참조
 
-    - [Amazon CloudFront란 무엇입니까? - Amazon CloudFront](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+- [Amazon CloudFront란 무엇입니까? - Amazon CloudFront](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 
 ---
 
@@ -85,7 +85,7 @@ CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 
 
 #### 참조
 
-    - [AWS Lambda란 무엇입니까? - AWS Lambda](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/welcome.html)
+- [AWS Lambda란 무엇입니까? - AWS Lambda](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/welcome.html)
 
 ---
 
@@ -100,7 +100,7 @@ AWS가 제공하는 파일 기반 비디오 처리 서비스로 다양한 소스
 
 #### 참조
 
-    - [AWS Elemental MediaConvert란 무엇입니까? - MediaConvert](https://docs.aws.amazon.com/ko_kr/mediaconvert/latest/ug/what-is.html)
+- [AWS Elemental MediaConvert란 무엇입니까? - MediaConvert](https://docs.aws.amazon.com/ko_kr/mediaconvert/latest/ug/what-is.html)
 
 ---
 
@@ -115,9 +115,9 @@ AWS MediaConvert를 통해 비트레이트 단위로 저장되는 HLS 포맷으�
 
 #### 참조
 
-    - [가변 비트레이트 스트리밍(Adaptive Bitrate Streaming)이란 무엇일까? :: Cloud Computing On Demand](https://ondemand.tistory.com/177)
-    - [What is adaptive bitrate streaming?  | Cloudflare](https://www.cloudflare.com/ko-kr/learning/video/what-is-adaptive-bitrate-streaming/)
-    - [적응 비트레이트 스트리밍 - 위키백과](https://ko.wikipedia.org/wiki/%EC%A0%81%EC%9D%91_%EB%B9%84%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%8A%B8_%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D)
+- [가변 비트레이트 스트리밍(Adaptive Bitrate Streaming)이란 무엇일까? :: Cloud Computing On Demand](https://ondemand.tistory.com/177)
+- [What is adaptive bitrate streaming?  | Cloudflare](https://www.cloudflare.com/ko-kr/learning/video/what-is-adaptive-bitrate-streaming/)
+- [적응 비트레이트 스트리밍 - 위키백과](https://ko.wikipedia.org/wiki/%EC%A0%81%EC%9D%91_%EB%B9%84%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%8A%B8_%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D)
 
 ---
 
@@ -135,5 +135,5 @@ IOS와 Android 두 환경에서 동일한 동영상 파일이 재생되어야하
 
 #### 참조
 
-    - [NAVER D2](https://d2.naver.com/helloworld/7122)
-    - [HTTP 라이브 스트리밍 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/HTTP_%EB%9D%BC%EC%9D%B4%EB%B8%8C_%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D)
+- [NAVER D2](https://d2.naver.com/helloworld/7122)
+- [HTTP 라이브 스트리밍 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/HTTP_%EB%9D%BC%EC%9D%B4%EB%B8%8C_%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D)
