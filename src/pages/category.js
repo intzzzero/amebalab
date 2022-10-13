@@ -57,6 +57,7 @@ const PostTitle = styled.p`
 const categories = [
   "book",
   "think",
+  "dev",
   "JavaScript",
   "CSS",
   "HTML",
