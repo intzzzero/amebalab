@@ -1,14 +1,14 @@
 ---
 title: "영상 콘텐츠 서비스 레퍼런스 스터디"
 date: "2022-10-13"
-update: "2022-10-13"
+update: "2022-10-14"
 draft: false
 category: "dev"
 path: "/blog/media-stream-til-01"
 ---
 
 ![미디어스트림 아키텍쳐](https://d1.awsstatic.com/products/cloudfront/VOD%20Architecture%20CloudFront.aa3cb2ec3a8660b42f90072c60672a52d9c357a6.png)
-
+<br /><br /><br />
 #### 참조
 
 - [자습서: S3 Batch Operations, AWS Lambda 및 AWS Elemental MediaConvert를 통해 비디오 일괄 트랜스코딩 - Amazon Simple Storage Service](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/tutorial-s3-batchops-lambda-mediaconvert-video.html)
@@ -21,7 +21,7 @@ path: "/blog/media-stream-til-01"
 
 ### S3(Simple Storage Service)
 
-데이터를 구성하고 관리하는 데 사용할 수 있는 다양한 기능을 제공합니다. 데이터는 버킷(bucket)이라는 리소스에 객체로 저장되며, 한 객체의 크기는 최대 5테라바이트까지 가능하다. S3 기능에는 객체에 메타데이터 태그 추가, S3 스토리지 클래스에서 데이터 이동 및 저장, 데이터 액세스 제어 구성 및 적용, 무단 사용자로부터 데이터 보호, 빅 데이터 분석 실행, 객체와 버킷 수준에서 데이터를 모니터링하고 조직 전체의 스토리지 사용량 및 활동 추세를 보는 등의 기능이 포함된다. 객체는 S3 액세스 포인트를 통해서 액세스하거나 버킷 호스트 이름을 통해 직접 액세스할 수 있다.
+데이터를 구성하고 관리하는 데 사용할 수 있는 다양한 기능을 제공한다. 데이터는 버킷(bucket)이라는 리소스에 객체로 저장되며, 한 객체의 크기는 최대 5테라바이트까지 가능하다. S3 기능에는 객체에 메타데이터 태그 추가, S3 스토리지 클래스에서 데이터 이동 및 저장, 데이터 액세스 제어 구성 및 적용, 무단 사용자로부터 데이터 보호, 빅 데이터 분석 실행, 객체와 버킷 수준에서 데이터를 모니터링하고 조직 전체의 스토리지 사용량 및 활동 추세를 보는 등의 기능이 포함된다. 객체는 S3 액세스 포인트를 통해서 액세스하거나 버킷 호스트 이름을 통해 직접 액세스할 수 있다.
 <br /><br /><br />
 
 #### 이용
