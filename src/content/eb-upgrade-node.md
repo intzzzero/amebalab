@@ -10,7 +10,7 @@ path: "/blog/eb-upgrade-node"
 ## 계기
 
 기존에 엘라스틱 빈스톡(Elastic Beanstalk, 이하 EB)으로 구축되어 있던 서버의 Node.js 버전 이슈로 인해 환경을 새로 구축해야 하는 상황에 처했다.
-기존 EB 환경은 Node.js 12버전을 쓰고 있었다. 그 동안 딱히 호환성 문제가 발생하지 않았기에 플랫폼 상태가 Deprecated가 되었음에도 그대로 사용하고 있었는데, 이번에 꼭 업데이트해야만 하는 패키지가 Node.js 14버전 이상에서만 동작하는 것이다. 로컬에서는 잘 돌아가는데 데브서버에 배포하면 서버가 503를 뱉으며 뻗어버리는 탓에 원인을 찾다가 알게 되었다.
+기존 EB 환경은 Node.js 12버전을 쓰고 있었다. 그 동안 딱히 호환성 문제가 발생하지 않았기에 플랫폼 상태가 Deprecated가 되었음에도 그대로 사용하고 있었는데, 이번에 꼭 업데이트해야만 하는 패키지가 Node.js 14버전 이상에서만 동작하는 것이다. 로컬에서는 잘 돌아가는데 데브환경에 배포하면 서버가 503를 뱉으며 뻗어버리는 탓에 원인을 찾다가 알게 되었다.
 
 이를 통해 앞으로는 배포 전에 해당 패키지의 package.json도 반드시 확인하자는 다짐을 하게 되었다.
 
@@ -37,8 +37,14 @@ package.json에 위와 같이 요구되는 환경 버전이 기재되어 있다.
 
 ## 환경생성
 
-![엘라스틱빈스톡 환경생성 1](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-01.png)
 ![엘라스틱빈스톡 환경생성 2](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-02.png)
+![엘라스틱빈스톡 환경생성 3](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-03.png)
+
+EB에서 환경은 하나의 애플리케이션 하위에 여러 개가 존재할 수 있다. My-App이라는 서비스 하위에 '유저버전(production)'과 '개발버전(development)' 등을 각각 분리하여 구성할 수 있다는 것이며 필요에 따라 dev1, dev2, dev3 등등 환경을 얼마든지 더 늘릴 수도 있다.
+
+![엘라스틱빈스톡 환경생성 4](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-04.png)
+![엘라스틱빈스톡 환경생성 5](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-05.png)
+![엘라스틱빈스톡 환경생성 6](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-06.png)
 
 <br /><br /><br />
 
