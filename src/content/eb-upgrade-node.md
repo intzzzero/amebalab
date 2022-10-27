@@ -42,11 +42,19 @@ package.json에 위와 같이 요구되는 환경 버전이 기재되어 있다.
 
 EB에서 환경은 하나의 애플리케이션 하위에 여러 개가 존재할 수 있다. My-App이라는 서비스 하위에 '유저버전(production)'과 '개발버전(development)' 등을 각각 분리하여 구성할 수 있다는 것이며 필요에 따라 dev1, dev2, dev3 등등 환경을 얼마든지 더 늘릴 수도 있다.
 
+애플리케이션 탭 내에서 '새 환경 생성'을 하면 기존의 다른 환경들의 설정을 손쉽게 가져올 수 있다.
+
 ![엘라스틱빈스톡 환경생성 4](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-04.png)
 ![엘라스틱빈스톡 환경생성 5](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-05.png)
+
+환경 이름만 구분이 되도록 정하고,
+
 ![엘라스틱빈스톡 환경생성 6](https://raw.githubusercontent.com/intzzzero/amebalab/master/src/images/eb-06.png)
 
-<br /><br /><br />
+플랫폼과 Node.js 버전을 선택한다. 그리고, 환경 생성과 동시에 배포할 버전을 기존에 배포되었던 버전들 중에서 선택할 수 있다.
+경우에 따라 '추가 옵션 구성'으로 진입하여 로드밸런서나 인스턴스 설정 등을 조정한 뒤 '환경 생성'을 하면 5~10분 뒤 환경 생성이 완료된다.
+
+<br /><br />
 
 ### 참조
 
