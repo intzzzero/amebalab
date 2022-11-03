@@ -3,7 +3,7 @@ title: "로컬호스트가 열려있다니?"
 date: "2021-08-07"
 update: "2021-08-07"
 draft: false
-category: "TIP"
+category: "etc"
 path: "/blog/kill-localhost"
 ---
 

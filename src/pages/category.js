@@ -65,7 +65,7 @@ const categories = [
   "Node",
   "Python",
   "Database",
-  "TIP",
+  "etc",
   "Computer Science",
   "Network",
 ]
