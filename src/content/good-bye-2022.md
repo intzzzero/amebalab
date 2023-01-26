@@ -7,6 +7,8 @@ category: "think"
 path: "/blog/good-bye-2022"
 ---
 
+![edward hopper - office in a small city](https://img.wikioo.org/ADC/Art-ImgScreen-4.nsf/O/A-8XXUBS/$FILE/Edward-hopper-office-in-a-small-city.Jpg)
+
 ## 1분기
 
 <hr />
