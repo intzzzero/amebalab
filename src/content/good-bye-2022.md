@@ -1,7 +1,7 @@
 ---
 title: "2022년 회고"
 date: "2023-01-01"
-update: "2022-01-02"
+update: "2023-01-02"
 draft: false
 category: "think"
 path: "/blog/good-bye-2022"
