@@ -115,6 +115,8 @@ AWS 이슈가 마무리될 즈음 포인트 차감 오류가 발견되었다. �
 
 <br /><br />
 
+![그린랩스 컨퍼런스](https://github.com/intzzzero/amebalab/blob/master/src/images/greenlabs.png?raw=true)
+
 ## 2023년 목표
 
 <hr />
