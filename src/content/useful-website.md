@@ -28,6 +28,7 @@ path: "/blog/useful-website"
 - [기계인간(이종립 님) 블로그](https://johngrib.github.io/)
 - [아웃사이더님 블로그](https://blog.outsider.ne.kr/)
 - [캡틴판교님 블로그](https://joshua1988.github.io/tech/)
+- [Toss - Frontend Fundamentals](https://frontend-fundamentals.com/)
 
 <br /><br />
 
