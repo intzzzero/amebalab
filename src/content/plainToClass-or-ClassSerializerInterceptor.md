@@ -3,7 +3,7 @@ title: "plainToClass와 ClassSerializerInterceptor 중 무엇을 써야하나"
 date: "2025-01-21"
 update: "2025-01-21"
 draft: false
-category: "nestjs"
+category: "NestJS"
 path: "/blog/plainToClass-or-ClassSerializerInterceptor"
 ---
 

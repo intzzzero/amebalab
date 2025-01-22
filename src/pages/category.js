@@ -63,6 +63,7 @@ const categories = [
   "HTML",
   "React",
   "Node",
+  "NestJS",
   "Python",
   "Database",
   "etc",
